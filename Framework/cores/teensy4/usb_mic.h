@@ -27,37 +27,39 @@
  * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-//#pragma message "pweeeeeeeeeeeeeeeeeeet usb_mic.h"
+
 
 #pragma once
 
 #include "usb_desc.h"
 #ifdef USB_MIC_INTERFACE
 
-#define FEATURE_MAX_VOLUME 0xFFF  // volume accepted from 0 to 0xFFF
+#define FEATURE_MAX_VOLUME 0xFFF // volume accepted from 0 to 0xFFF
 
 #ifdef __cplusplus
-extern "C" {
+extern "C"
+{
 #endif
-extern void usb_mic_configure();
-extern uint16_t usb_audio_receive_buffer[];
-extern uint16_t usb_audio_transmit_buffer[];
-extern uint32_t usb_audio_sync_feedback;
-extern uint8_t usb_audio_receive_setting;
-extern uint8_t usb_audio_transmit_setting;
-extern void usb_audio_receive_callback(unsigned int len);
-extern unsigned int usb_audio_transmit_callback(void);
-extern int usb_audio_set_feature(void *stp, uint8_t *buf);
-extern int usb_audio_get_feature(void *stp, uint8_t *data, uint32_t *datalen);
+	extern void usb_mic_configure();
+	extern uint16_t usb_audio_receive_buffer[];
+	extern uint16_t usb_audio_transmit_buffer[];
+	extern uint32_t usb_audio_sync_feedback;
+	extern uint8_t usb_audio_receive_setting;
+	extern uint8_t usb_audio_transmit_setting;
+	extern void usb_audio_receive_callback(unsigned int len);
+	extern unsigned int usb_audio_transmit_callback(void);
+	extern int usb_audio_set_feature(void *stp, uint8_t *buf);
+	//extern int usb_audio_get_feature(void *stp, uint8_t *data, uint32_t *datalen);
 #ifdef __cplusplus
 }
 #endif
 
 // audio features supported
-struct usb_audio_features_struct {
-  int change;  // set to 1 when any value is changed
-  int mute;    // 1=mute, 0=unmute
-  int volume;  // volume from 0 to FEATURE_MAX_VOLUME, maybe should be float from 0.0 to 1.0
+struct usb_audio_features_struct
+{
+	int change; // set to 1 when any value is changed
+	int mute;	// 1=mute, 0=unmute
+	int volume; // volume from 0 to FEATURE_MAX_VOLUME, maybe should be float from 0.0 to 1.0
 };
 
 #ifdef __cplusplus
@@ -94,6 +96,7 @@ public:
 	virtual void update(void);
 	void begin(void);
 	friend unsigned int usb_audio_transmit_callback(void);
+
 private:
 	static bool update_responsibility;
 	static audio_block_t *left_1st;
@@ -105,4 +108,4 @@ private:
 };
 #endif // __cplusplus
 
-#endif // AUDIO_INTERFACE
+#endif // USB_MIC_INTERFACE
