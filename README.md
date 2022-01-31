@@ -1,18 +1,14 @@
 # TeensyMicSGTL
-Teensy USB Mic 
+Teensy USB Mic (Work in Progress)
+How to use it :
 
-File boards.txt lines 485
-Add lines :
-teensy40.menu.usb.mic=USB microphone
-teensy40.menu.usb.mic.build.usbtype=USB_MIC
-teensy40.menu.usb.mic.fake_serial=teensy_gateway
+Copy the files in Framework folder to your Framework
 
-Add files 
-usb_mic.cpp
-usb_mic.h
+Copy the PlatformIO files to your project
 
-usb.c
-add #include "usb_mic.h"
+# Description
+The goal is to develop a small ultrasound microphone connected to the usb port of a phone
 
-WProgram.h
-add #include "usb_mic.h"
+# Status of the project
+- High Samplerate : Done. Based on the work of Frank B : https://forum.pjrc.com/threads/67749-USB-Audio-samplerates-added
+- Create the microphone USB descriptor : In progress. Windows can't recognize it yet
