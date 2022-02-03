@@ -1,0 +1,880 @@
+
+<!-- saved from url=(0143)file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<style type="text/css">
+		BODY { background-color: #DFDFDF; }
+		.dm_display
+		{
+		    color: Navy;
+		    font-family: monospace;
+		    background-color: White;
+		    border-width: 3px;
+		    border-style: outset;
+		}
+
+		#suite-output
+		{
+		    background-color: #FFFFDD;
+		    border: ridge 3px #FFFFDD;
+		    border-collapse: collapse;
+		    padding: 0;
+		    margin: 0;
+		    empty-cells: hide
+		}
+
+		#test-header
+		{
+		    font-weight: bold;
+		    font-size: large;
+		    border-top: ridge 2px #FFFFDD;
+		    border-bottom: ridge 2px #FFFFDD;
+		    padding: 0;
+		    margin: 0;
+		}
+
+		.test-pass, .test-fail
+		{
+		    float: right;
+		    border-left: ridge 2px #FFFDD;
+		    min-width: 6em;
+		}
+
+		.test-pass { background-color: #00FF00; }
+		.test-fail { background-color: #FF8888; }
+
+		.test-details
+		{
+		    clear: both;
+		    font-family: monospace;
+		    padding: 0;
+		    margin: 0;
+		    empty-cells: hide;
+		}
+
+		.label
+		{
+		    float: left;
+		    width: 6em;
+		}
+
+		.content
+		{
+		    white-space: pre-wrap;
+		    margin-left: 7em;
+		}
+
+		.err_log, .warn_log
+		{
+		    color: Red;
+		}
+
+		.err_log { font-weight: bold; }
+
+		.unexpected_log
+		{
+		    color: Red;
+		    background-color: Yellow;
+		    font-weight: bold;
+		    font-style: italic;
+		}
+	</style>
+	<title>Chapter 9 Tests - 2022-02-03 20-42-45</title>
+	<meta name="Suite-Name" content="Chapter 9 Tests.cvtests">
+	<meta name="Test-Version" content="CVApp.exe ver 4.0.1.0">
+	<meta name="Test-Version" content="BaseUtilities.dll ver 4.0.1.0">
+	<meta name="Test-Version" content="CommandVerifierLog.dll ver 4.0.1.0">
+	<meta name="Test-Version" content="GuiHelper.dll ver 4.0.1.0">
+	<meta name="Test-Version" content="TestUtilities.dll ver 4.0.1.0">
+	<meta name="Test-Version" content="TestSuiteEngine.dll ver 4.0.1.0">
+	<meta name="Test-Version" content="EhciDevIOCTL.dll ver 1.5.14.0">
+	<meta name="Test-Version" content="EhciTestServices.dll ver 1.5.14.0">
+	<meta name="Test-Version" content="USBUtilities.dll ver 1.4.5.1">
+	<meta name="Test-Version" content="StackSwitcher.dll ver 1.4.5.1">
+	<meta name="Test-Version" content="USBCommandVerifier.dll ver 1.5.14.0">
+	<meta name="Device-Under-Test" content="VID=16C0,PID=04D4">
+	<meta name="Test-Pass" content="Device Descriptor Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (2)]">
+	<meta name="Test-Pass" content="Device Descriptor Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (2)]">
+	<meta name="Test-Fail" content="TD 9.3 Interface Association Descriptor Test (Config 0) [Fails (3); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="TD 9.7 BOS Descriptor Test [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Fail" content="Configuration Descriptor Test (Configuration Index 0) [Fails (2); Aborts (0); Warnings (0)]">
+	<meta name="Test-Fail" content="Configuration Descriptor Test (Configuration Index 0) [Fails (1); Aborts (0); Warnings (0)]">
+	<meta name="Test-Fail" content="Interface Descriptor Test (Configuration Index 0) [Fails (4); Aborts (0); Warnings (1)]">
+	<meta name="Test-Pass" content="Endpoint Descriptor Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Endpoint Descriptor Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Fail" content="Halt Endpoint Test (Configuration Index 0) [Fails (3); Aborts (0); Warnings (1)]">
+	<meta name="Test-Pass" content="SetConfiguration Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Suspend/Resume Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Remote Wakeup Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Remote Wakeup Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Fail" content="Other Speed Configuration Test (Configuration Index 0 OtherSpeedConfiguration Index 0) [Fails (1); Aborts (0); Warnings (0)]">
+	<meta name="Test-Fail" content="Interface Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0) [Fails (1); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Endpoint Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Device Qualifier Descriptor Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Device Qualifier Descriptor Test (Configuration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Fail" content="Other Speed Configuration Test (Configuration Index 0 OtherSpeedConfiguration Index 0) [Fails (1); Aborts (0); Warnings (0)]">
+	<meta name="Test-Fail" content="Interface Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0) [Fails (1); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Endpoint Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Test-Pass" content="Enumeration Test (repeat 150 times) [Fails (0); Aborts (0); Warnings (0)]">
+	<meta name="Suite-Result" content="FAIL [Fails (17); Aborts (0); Warnings (6)]">
+	<meta name="Log-Name" content="Chapter 9 Tests - 2022-02-03 20-42-45.html">
+	<meta name="Test-Count" content="23">
+</head>
+<body><div id="suite-summary">
+	<div><strong>APPLICATION: </strong> USB 2 Command Verifier<br></div>
+	<div><strong>TEST SUITE: </strong> Chapter 9 Tests.cvtests<br></div>
+	<div><strong>OPERATING SYSTEM: </strong> Windows 10 Pro (Build 19041.1.amd64fre.vb_release.191206-1406)<br></div>
+	<div><strong>WORKSTATION: </strong> AM-LM<br></div>
+	<div><strong>DATE: </strong> Thursday, February 03, 2022<br></div>
+	<div><strong>TIME: </strong> 08:44:39 PM<br></div>
+	<div><strong>OPERATOR: </strong> Laurence<br></div>
+	<div><strong>NUMBER OF TESTS: </strong> 23<br></div>
+	<div><strong>LOG NAME: </strong> Chapter 9 Tests - 2022-02-03 20-42-45<br></div>
+	<div><strong>RESULT: </strong> <a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_6">failed</a><br></div>
+<hr>
+</div>
+<br><br>
+<div id="suite-output">
+<div id="test-header">Initialize Test Suite</div>
+<div class="test-details">
+<div><div class="label">INFO</div><div class="content">Test log initialized.</div></div>
+<div><div class="label">INFO</div><div class="content">Log Level: Normal</div></div>
+<div><div class="label">INFO</div><div class="content">User Input module initialized</div></div>
+<div><div class="label">INFO</div><div class="content">Windows 10 Pro (Build 19041.1.amd64fre.vb_release.191206-1406)</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">CVApp.exe ver 4.0.1.0</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">BaseUtilities.dll ver 4.0.1.0</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">CommandVerifierLog.dll ver 4.0.1.0</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">GuiHelper.dll ver 4.0.1.0</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">TestUtilities.dll ver 4.0.1.0</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">TestSuiteEngine.dll ver 4.0.1.0</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">EhciDevIOCTL.dll ver 1.5.14.0</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">EhciTestServices.dll ver 1.5.14.0</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">USBUtilities.dll ver 1.4.5.1</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">StackSwitcher.dll ver 1.4.5.1</div></div>
+<div style="color:#00005F"><div class="label">INFO</div><div class="content">USBCommandVerifier.dll ver 1.5.14.0</div></div>
+<div style="font-weight: bold;color:#00007F"><div class="label">INFO</div><div class="content">Host selected: Bus PCI 0, p�riph�rique 29, fonction 0</div></div>
+<div style="font-weight: bold;color:#00007F"><div class="label">INFO</div><div class="content">DUT selected: HS  Device (HID) addr=2:   VID=16c0, PID=04d4</div></div>
+</div>
+<div id="test-header">GetNumberOfConfigurations</div>
+<div class="test-details">
+<div><div class="label">INFO</div><div class="content">Number of configurations: 1</div></div>
+</div>
+<div id="test-header">GetNumberOfConfigurations_Other</div>
+<div class="test-details">
+<div><div class="label">INFO</div><div class="content">Number of Other Speed configurations: 1</div></div>
+</div>
+<div id="test-header"><a name="anchor_4">Device Descriptor Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:35</div></div>
+<div><div class="label">INFO</div><div class="content">Device descriptor length : 12</div></div>
+<div><div class="label">INFO</div><div class="content">Device descriptor type : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Major version : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Minor version : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Each interface specifies its own device class type</div></div>
+<div><div class="label">INFO</div><div class="content">Device sub class : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device protocol : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device MaxPacketSize0 : 40</div></div>
+<div class="warn_log"><div class="label">WARNING</div><div class="content">Couldn't open vendor name file usbif.json.</div></div>
+<div class="warn_log"><div class="label">WARNING</div><div class="content">Failed to get vendor information for VendorID : 16c0</div></div>
+<div><div class="label">INFO</div><div class="content">Device ProductID : 4d4</div></div>
+<div><div class="label">INFO</div><div class="content">Device BCD : 214</div></div>
+<div><div class="label">INFO</div><div class="content">    ENGLISH_US           language string descriptor is : Teensyduino</div></div>
+<div><div class="label">INFO</div><div class="content">    ENGLISH_US           language string descriptor is : Teensy Micro</div></div>
+<div><div class="label">INFO</div><div class="content">    ENGLISH_US           language string descriptor is : 8040980</div></div>
+<div><div class="label">INFO</div><div class="content">Number of configurations device supports : 1</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:36</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Device Descriptor Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (2) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_5">Device Descriptor Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:36</div></div>
+<div><div class="label">INFO</div><div class="content">Device descriptor length : 12</div></div>
+<div><div class="label">INFO</div><div class="content">Device descriptor type : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Major version : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Minor version : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Each interface specifies its own device class type</div></div>
+<div><div class="label">INFO</div><div class="content">Device sub class : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device protocol : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device MaxPacketSize0 : 40</div></div>
+<div class="warn_log"><div class="label">WARNING</div><div class="content">Couldn't open vendor name file usbif.json.</div></div>
+<div class="warn_log"><div class="label">WARNING</div><div class="content">Failed to get vendor information for VendorID : 16c0</div></div>
+<div><div class="label">INFO</div><div class="content">Device ProductID : 4d4</div></div>
+<div><div class="label">INFO</div><div class="content">Device BCD : 214</div></div>
+<div><div class="label">INFO</div><div class="content">    ENGLISH_US           language string descriptor is : Teensyduino</div></div>
+<div><div class="label">INFO</div><div class="content">    ENGLISH_US           language string descriptor is : Teensy Micro</div></div>
+<div><div class="label">INFO</div><div class="content">    ENGLISH_US           language string descriptor is : 8040980</div></div>
+<div><div class="label">INFO</div><div class="content">Number of configurations device supports : 1</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:37</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Device Descriptor Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (2) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_6"></a><a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_8">TD 9.3 Interface Association Descriptor Test (Config 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:37</div></div>
+<div><div class="label">INFO</div><div class="content">
+Device has 2 functions, of which 1 has an Interface Association descriptor.</div></div>
+<div><div class="label">INFO</div><div class="content">Function #1 does not have an Interface Association Descriptor.</div></div>
+<div><div class="label">INFO</div><div class="content">
+Interface Association Descriptor :</div></div>
+<div><div class="label">INFO</div><div class="content">  bLength = 0x08</div></div>
+<div><div class="label">INFO</div><div class="content">  bDescriptorType = 0x0b</div></div>
+<div><div class="label">INFO</div><div class="content">  bFirstInterface = 1</div></div>
+<div><div class="label">INFO</div><div class="content">  bInterfaceCount = 3</div></div>
+<div><div class="label">INFO</div><div class="content">  bFunctionClass = 0x01</div></div>
+<div><div class="label">INFO</div><div class="content">  bFunctionSubClass = 0x01</div></div>
+<div><div class="label">INFO</div><div class="content">  bFunctionProtocol = 0x00</div></div>
+<div><div class="label">INFO</div><div class="content">  iFunction = 0x00</div></div>
+<div><div class="label">INFO</div><div class="content">  Running TD 9.8 : String Descriptor Test for iFunction : 0x00</div></div>
+<div><div class="label">INFO</div><div class="content"> Found Interface Descriptor with number : 0</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Expected Interface Number : 1</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 9.6.4.3) The Interface Association descriptor returned in response to a GetDescriptor(Configuration) request must return the number of contiguous interfaces that are associated with this function in the bInterfaceCount field.</div></div>
+<div><div class="label">INFO</div><div class="content"> Found Interface Descriptor with number : 1</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Expected Interface Number : 2</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 9.6.4.3) The Interface Association descriptor returned in response to a GetDescriptor(Configuration) request must return the number of contiguous interfaces that are associated with this function in the bInterfaceCount field.</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Found 2 interfaces;  Expected 3 from Interface Association Descriptor</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 9.6.4.3) The Interface Association descriptor returned in response to a GetDescriptor(Configuration) request must return the number of contiguous interfaces that are associated with this function in the bInterfaceCount field.</div></div>
+<div><div class="label">INFO</div><div class="content"></div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:38</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ TD 9.3 Interface Association Descriptor Test (Config 0):
+     Number of: Fails (3); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_7">TD 9.7 BOS Descriptor Test</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:38</div></div>
+<div><div class="label">INFO</div><div class="content">USB Version number of device:  2.00</div></div>
+<div><div class="label">INFO</div><div class="content">BOS Descriptors are not supported in USB 2.00 and before.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:39</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ TD 9.7 BOS Descriptor Test:
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_8"></a><a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_9">Configuration Descriptor Test (Configuration Index 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:39</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : b</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 25</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Mismatch in number of interface descriptors. Expected : 2 Found : 3</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.24) The descriptor returned in response to a GetDescriptor([OtherSpeed]Configuration) request must contain the number of interfaces descriptors reported in the configuration descriptor.</div></div>
+<div><div class="label">INFO</div><div class="content">Number of alternate interface descriptors found : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Number of endpoint descriptors found : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor type : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor TotalLength : 95</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor NumInterfaces : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor ConfigurationValue: 1</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor string descriptor index : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor bmAttributes : c0</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not support remote wake up</div></div>
+<div><div class="label">INFO</div><div class="content">Maximum power device requires : 510mA</div></div>
+<div><div class="label">INFO</div><div class="content">Device is BUS/SELF-POWERED</div></div>
+<div><div class="label">INFO</div><div class="content">Device is currently BUS POWERED</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Device consumes &gt; 500ma when BUS POWERED : 510mA</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.34) A BUS POWERED device cannot draw more than 500ma.</div></div>
+<div><div class="label">INFO</div><div class="content">Currently remote wakeup is DISABLED</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:40</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ Configuration Descriptor Test (Configuration Index 0):
+     Number of: Fails (2); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_9"></a><a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_10">Configuration Descriptor Test (Configuration Index 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:40</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : b</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 25</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Mismatch in number of interface descriptors. Expected : 2 Found : 3</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.24) The descriptor returned in response to a GetDescriptor([OtherSpeed]Configuration) request must contain the number of interfaces descriptors reported in the configuration descriptor.</div></div>
+<div><div class="label">INFO</div><div class="content">Number of alternate interface descriptors found : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Number of endpoint descriptors found : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor type : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor TotalLength : 95</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor NumInterfaces : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor ConfigurationValue: 1</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor string descriptor index : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor bmAttributes : c0</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not support remote wake up</div></div>
+<div><div class="label">INFO</div><div class="content">Maximum power device requires : 510mA</div></div>
+<div><div class="label">INFO</div><div class="content">Device is BUS/SELF-POWERED</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:41</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ Configuration Descriptor Test (Configuration Index 0):
+     Number of: Fails (1); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_10"></a><a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_13">Interface Descriptor Test (Configuration Index 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:41</div></div>
+<div><div class="label">INFO</div><div class="content">Bandwidth check passed</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Alternate setting 0 not in sequential order for Interface number 0</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.45) Alternate settings for a given interface must be in sequential order.</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 2</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [HID] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Calling SetInterface(), InterfaceNumber=0, AlternateSetting=0</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">SetInterface failed for interface number : 0 alternate setting : 0</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.44) A device must support the SetInterface request if it has alternate settings for that interface.</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 1 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Calling SetInterface(), InterfaceNumber=0, AlternateSetting=0</div></div>
+<div class="warn_log"><div class="label">WARNING</div><div class="content">SetInterface with interface number : 0 failed.</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 2 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Calling SetInterface(), InterfaceNumber=1, AlternateSetting=0</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">SetInterface failed for interface number : 1 alternate setting : 0</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.44) A device must support the SetInterface request if it has alternate settings for that interface.</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 2 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Calling SetInterface(), InterfaceNumber=1, AlternateSetting=1</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">SetInterface failed for interface number : 1 alternate setting : 1</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.44) A device must support the SetInterface request if it has alternate settings for that interface.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:42</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ Interface Descriptor Test (Configuration Index 0):
+     Number of: Fails (4); Aborts (0); Warnings (1) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_11">Endpoint Descriptor Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:42</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Interrupt, Number : 2, Direction : IN</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 40</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Interrupt, Number : 2, Direction : OUT</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 20</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Isochronous, Number : 1, Direction : IN</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : d</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 5a</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 4</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:44</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  2 seconds.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Endpoint Descriptor Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_12">Endpoint Descriptor Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:44</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Interrupt, Number : 2, Direction : IN</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 40</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Interrupt, Number : 2, Direction : OUT</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 20</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Isochronous, Number : 1, Direction : IN</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : d</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 5a</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 4</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:45</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Endpoint Descriptor Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_13"></a><a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_18">Halt Endpoint Test (Configuration Index 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:45</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">SetInterface failed for interface number : 0 alternate setting : 0</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.44) A device must support the SetInterface request if it has alternate settings for that interface.</div></div>
+<div><div class="label">INFO</div><div class="content">Testing EndPoint type : Interrupt, Address : 82</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint is currently not halted</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint is halted</div></div>
+<div><div class="label">INFO</div><div class="content">Cleared endpoint halt</div></div>
+<div><div class="label">INFO</div><div class="content">Testing EndPoint type : Interrupt, Address : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint is currently not halted</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint is halted</div></div>
+<div><div class="label">INFO</div><div class="content">Cleared endpoint halt</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div class="warn_log"><div class="label">WARNING</div><div class="content">SetInterface with interface number : 0 failed.</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 0</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">SetInterface failed for interface number : 1 alternate setting : 0</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.44) A device must support the SetInterface request if it has alternate settings for that interface.</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 1</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">SetInterface failed for interface number : 1 alternate setting : 1</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.44) A device must support the SetInterface request if it has alternate settings for that interface.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:46</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ Halt Endpoint Test (Configuration Index 0):
+     Number of: Fails (3); Aborts (0); Warnings (1) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_14">SetConfiguration Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:46</div></div>
+<div><div class="label">INFO</div><div class="content">SetConfiguration with configuration value : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Unconfigured the device</div></div>
+<div><div class="label">INFO</div><div class="content">SetConfiguration with configuration value : 1</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:51</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  5 seconds.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ SetConfiguration Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_15">Suspend/Resume Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:51</div></div>
+<div><div class="label">INFO</div><div class="content">Suspended the parent port of the device</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:53</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  2 seconds.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Suspend/Resume Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_16">Remote Wakeup Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:53</div></div>
+<div><div class="label">INFO</div><div class="content">The device does not support remote wakeup</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:54</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Remote Wakeup Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_17">Remote Wakeup Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:54</div></div>
+<div><div class="label">INFO</div><div class="content">The device does not support remote wakeup</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:55</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Remote Wakeup Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_18"></a><a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_19">Other Speed Configuration Test (Configuration Index 0 OtherSpeedConfiguration Index 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:55</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : b</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 25</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Mismatch in number of interface descriptors. Expected : 2 Found : 3</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.24) The descriptor returned in response to a GetDescriptor([OtherSpeed]Configuration) request must contain the number of interfaces descriptors reported in the configuration descriptor.</div></div>
+<div><div class="label">INFO</div><div class="content">Number of alternate interface descriptors found : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Number of endpoint descriptors found : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor type : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor TotalLength : 95</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor NumInterfaces : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor ConfigurationValue: 1</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor string descriptor index : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor bmAttributes : c0</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not support remote wake up</div></div>
+<div><div class="label">INFO</div><div class="content">Maximum power device requires : 510mA</div></div>
+<div><div class="label">INFO</div><div class="content">Device is BUS/SELF-POWERED</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:56</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ Other Speed Configuration Test (Configuration Index 0 OtherSpeedConfiguration Index 0):
+     Number of: Fails (1); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_19"></a><a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_23">Interface Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:56</div></div>
+<div><div class="label">INFO</div><div class="content">Bandwidth check passed</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Alternate setting 0 not in sequential order for Interface number 0</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.45) Alternate settings for a given interface must be in sequential order.</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 2</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [HID] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 1 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 2 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 2 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:57</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ Interface Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0):
+     Number of: Fails (1); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_20">Endpoint Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:57</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Interrupt, Number : 2, Direction : IN</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 40</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Interrupt, Number : 2, Direction : OUT</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 20</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Isochronous, Number : 1, Direction : IN</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : d</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 5a</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 1</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:58</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Endpoint Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_21">Device Qualifier Descriptor Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:58</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier length : a</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier type : 6</div></div>
+<div><div class="label">INFO</div><div class="content">Major version : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Minor version : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device Qualifier device class : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier device subclass : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier device protocol : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier MaxPacketSize0 : 40</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier bNumConfigurations : 1</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:43:59</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Device Qualifier Descriptor Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_22">Device Qualifier Descriptor Test (Configuration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:43:59</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier length : a</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier type : 6</div></div>
+<div><div class="label">INFO</div><div class="content">Major version : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Minor version : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device Qualifier device class : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier device subclass : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier device protocol : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier MaxPacketSize0 : 40</div></div>
+<div><div class="label">INFO</div><div class="content">Device qualifier bNumConfigurations : 1</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:44:00</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Device Qualifier Descriptor Test (Configuration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_23"></a><a href="file:///C:/Users/Laurence/Documents/USB-IF%20Test%20Suite/CV%20Reports/USB2CV/Chapter%209%20Tests%20-%20Failed%20-%202022-02-03%2020-42-45.html#anchor_24">Other Speed Configuration Test (Configuration Index 0 OtherSpeedConfiguration Index 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:44:01</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : b</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 24</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor contains descriptor of type : 25</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Mismatch in number of interface descriptors. Expected : 2 Found : 3</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.24) The descriptor returned in response to a GetDescriptor([OtherSpeed]Configuration) request must contain the number of interfaces descriptors reported in the configuration descriptor.</div></div>
+<div><div class="label">INFO</div><div class="content">Number of alternate interface descriptors found : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Number of endpoint descriptors found : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor type : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor TotalLength : 95</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor NumInterfaces : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor ConfigurationValue: 1</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor string descriptor index : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Configuration descriptor bmAttributes : c0</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not support remote wake up</div></div>
+<div><div class="label">INFO</div><div class="content">Maximum power device requires : 510mA</div></div>
+<div><div class="label">INFO</div><div class="content">Device is BUS/SELF-POWERED</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:44:02</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ Other Speed Configuration Test (Configuration Index 0 OtherSpeedConfiguration Index 0):
+     Number of: Fails (1); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_24">Interface Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0)</a><div class="test-fail">Failed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:44:02</div></div>
+<div><div class="label">INFO</div><div class="content">Bandwidth check passed</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div class="err_log"><div class="label">INFO</div><div class="content">Alternate setting 0 not in sequential order for Interface number 0</div></div>
+<div class="err_log"><div class="label">FAIL</div><div class="content">(USB: 1.2.45) Alternate settings for a given interface must be in sequential order.</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 2</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [HID] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 1 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 0</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 2 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bDescriptorType : 4</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bAlternateSetting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bNumEndPoints: 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceClass reserved for assignment by the USB-IF : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Interface class code indicates [Audio] Interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface sub class : 2 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface protocol : 0 &lt;not defined&gt;</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor bInterfaceSubClass : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Device does not use a class-specific protocol on this interface</div></div>
+<div><div class="label">INFO</div><div class="content">Interface descriptor iInterface : 0x0</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:44:03</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#BF0000"><div class="label">INFO</div><div class="content">Stopping Test [ Interface Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0):
+     Number of: Fails (1); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_25">Endpoint Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:44:03</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Interrupt, Number : 2, Direction : IN</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 40</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 7</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Interrupt, Number : 2, Direction : OUT</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : 3</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 20</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 2</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 0 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 0</div></div>
+<div><div class="label">INFO</div><div class="content">Testing Interface number : 1 Alternate setting : 1</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor length : 9</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor type : 5</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint Type : Isochronous, Number : 1, Direction : IN</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor bmAttributes : d</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor raw MaxPacketSize : 5a</div></div>
+<div><div class="label">INFO</div><div class="content">Endpoint descriptor interval : 1</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:44:04</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  1 second.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Endpoint Descriptor Test (Configuration Index 0 OtherSpeedConfiguration Index 0):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header"><a name="anchor_26">Enumeration Test (repeat 150 times)</a><div class="test-pass">Passed</div></div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#0000AA"><div class="label">INFO</div><div class="content">Start time: Feb 03, 2022 - 20:44:04</div></div>
+<div><div class="label">INFO</div><div class="content">Device speed is High</div></div>
+<div style="font-weight: bold"><div class="label">INFO</div><div class="content">Beginning enumeration test with 150 enumerations.  This may take several minutes to complete.</div></div>
+<div><div class="label">INFO</div><div class="content">Enumerated 150 iterations.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">
+Stop time: Feb 03, 2022 - 20:44:36</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Duration:  32 seconds.</div></div>
+<div style="font-weight: bold;color:#007F00"><div class="label">INFO</div><div class="content">Stopping Test [ Enumeration Test (repeat 150 times):
+     Number of: Fails (0); Aborts (0); Warnings (0) ]
+
+</div></div>
+</div>
+<div id="test-header">Display Other Tests To Run</div>
+<div class="test-details">
+<div><div class="label">INFO</div><div class="content">Informed user: run HID Tests on this device.</div></div>
+</div>
+<div id="test-header">Summary</div>
+<div class="test-details">
+<div style="font-weight: bold;font-style:italic;color:#BF0000"><div class="label">INFO</div><div class="content">TEST SUITE SUMMARY:
+    [ Fails (17); Aborts (0); Warnings (6) ]</div></div>
+<div style="font-weight: bold;font-style:italic;color:#BF0000"><div class="label">INFO</div><div class="content">TEST RESULTS:
+    [ Passed (14); Failed (9) ]</div></div>
+</div>
+</div>
+
+</body></html>
