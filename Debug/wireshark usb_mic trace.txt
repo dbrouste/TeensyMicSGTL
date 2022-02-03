@@ -1,0 +1,3782 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000       host                  1.63.0                USB      36     GET DESCRIPTOR Request DEVICE
+
+Frame 1: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165601000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165601000 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4b60f9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 2]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: DEVICE (0x01)
+    Language Id: no language specified (0x0000)
+    wLength: 18
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000114       1.63.0                host                  USB      46     GET DESCRIPTOR Response DEVICE
+
+Frame 2: 46 bytes on wire (368 bits), 46 bytes captured (368 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165715000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165715000 seconds
+    [Time delta from previous captured frame: 0.000114000 seconds]
+    [Time delta from previous displayed frame: 0.000114000 seconds]
+    [Time since reference or first frame: 0.000114000 seconds]
+    Frame Number: 2
+    Frame Length: 46 bytes (368 bits)
+    Capture Length: 46 bytes (368 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4b60f9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 18
+    [Request in: 1]
+    [Time from request: 0.000114000 seconds]
+    Control transfer stage: Complete (3)
+DEVICE DESCRIPTOR
+    bLength: 18
+    bDescriptorType: 0x01 (DEVICE)
+    bcdUSB: 0x0200
+    bDeviceClass: Device (0x00)
+    bDeviceSubClass: 0
+    bDeviceProtocol: 0 (Use class code info from Interface Descriptors)
+    bMaxPacketSize0: 64
+    idVendor: Van Ooijen Technische Informatica (0x16c0)
+    idProduct: Unknown (0x04d4)
+    bcdDevice: 0x0214
+    iManufacturer: 1
+    iProduct: 2
+    iSerialNumber: 3
+    bNumConfigurations: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000147       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 3: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165748000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165748000 seconds
+    [Time delta from previous captured frame: 0.000033000 seconds]
+    [Time delta from previous displayed frame: 0.000033000 seconds]
+    [Time since reference or first frame: 0.000147000 seconds]
+    Frame Number: 3
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57bc5790
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 4]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000187       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 4: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165788000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165788000 seconds
+    [Time delta from previous captured frame: 0.000040000 seconds]
+    [Time delta from previous displayed frame: 0.000040000 seconds]
+    [Time since reference or first frame: 0.000187000 seconds]
+    Frame Number: 4
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57bc5790
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 3]
+    [Time from request: 0.000040000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.000211       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 5: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165812000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165812000 seconds
+    [Time delta from previous captured frame: 0.000024000 seconds]
+    [Time delta from previous displayed frame: 0.000024000 seconds]
+    [Time since reference or first frame: 0.000211000 seconds]
+    Frame Number: 5
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c5ca51010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 6]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.000258       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 6: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165859000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165859000 seconds
+    [Time delta from previous captured frame: 0.000047000 seconds]
+    [Time delta from previous displayed frame: 0.000047000 seconds]
+    [Time since reference or first frame: 0.000258000 seconds]
+    Frame Number: 6
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c5ca51010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 5]
+    [Time from request: 0.000047000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.000270       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 7: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165871000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165871000 seconds
+    [Time delta from previous captured frame: 0.000012000 seconds]
+    [Time delta from previous displayed frame: 0.000012000 seconds]
+    [Time since reference or first frame: 0.000270000 seconds]
+    Frame Number: 7
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4b60f9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 8]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.000357       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 8: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165958000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165958000 seconds
+    [Time delta from previous captured frame: 0.000087000 seconds]
+    [Time delta from previous displayed frame: 0.000087000 seconds]
+    [Time since reference or first frame: 0.000357000 seconds]
+    Frame Number: 8
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4b60f9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 7]
+    [Time from request: 0.000087000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 0.000365       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 9: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.165966000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.165966000 seconds
+    [Time delta from previous captured frame: 0.000008000 seconds]
+    [Time delta from previous displayed frame: 0.000008000 seconds]
+    [Time since reference or first frame: 0.000365000 seconds]
+    Frame Number: 9
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c545a89d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 10]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 0.000456       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 10: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.166057000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.166057000 seconds
+    [Time delta from previous captured frame: 0.000091000 seconds]
+    [Time delta from previous displayed frame: 0.000091000 seconds]
+    [Time since reference or first frame: 0.000456000 seconds]
+    Frame Number: 10
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c545a89d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 9]
+    [Time from request: 0.000091000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 0.000468       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 11: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.166069000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.166069000 seconds
+    [Time delta from previous captured frame: 0.000012000 seconds]
+    [Time delta from previous displayed frame: 0.000012000 seconds]
+    [Time since reference or first frame: 0.000468000 seconds]
+    Frame Number: 11
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57aca9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 12]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 0.000507       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 12: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.166108000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.166108000 seconds
+    [Time delta from previous captured frame: 0.000039000 seconds]
+    [Time delta from previous displayed frame: 0.000039000 seconds]
+    [Time since reference or first frame: 0.000507000 seconds]
+    Frame Number: 12
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57aca9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 11]
+    [Time from request: 0.000039000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 0.000514       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 13: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.166115000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.166115000 seconds
+    [Time delta from previous captured frame: 0.000007000 seconds]
+    [Time delta from previous displayed frame: 0.000007000 seconds]
+    [Time since reference or first frame: 0.000514000 seconds]
+    Frame Number: 13
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c579cb9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 14]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 0.000609       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 14: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.166210000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.166210000 seconds
+    [Time delta from previous captured frame: 0.000095000 seconds]
+    [Time delta from previous displayed frame: 0.000095000 seconds]
+    [Time since reference or first frame: 0.000609000 seconds]
+    Frame Number: 14
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c579cb9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 13]
+    [Time from request: 0.000095000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 0.186476       host                  1.63.0                USB      36     GET DESCRIPTOR Request DEVICE
+
+Frame 15: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352077000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352077000 seconds
+    [Time delta from previous captured frame: 0.185867000 seconds]
+    [Time delta from previous displayed frame: 0.185867000 seconds]
+    [Time since reference or first frame: 0.186476000 seconds]
+    Frame Number: 15
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4e3469c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 16]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: DEVICE (0x01)
+    Language Id: no language specified (0x0000)
+    wLength: 18
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 0.186948       1.63.0                host                  USB      46     GET DESCRIPTOR Response DEVICE
+
+Frame 16: 46 bytes on wire (368 bits), 46 bytes captured (368 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352549000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352549000 seconds
+    [Time delta from previous captured frame: 0.000472000 seconds]
+    [Time delta from previous displayed frame: 0.000472000 seconds]
+    [Time since reference or first frame: 0.186948000 seconds]
+    Frame Number: 16
+    Frame Length: 46 bytes (368 bits)
+    Capture Length: 46 bytes (368 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4e3469c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 18
+    [Request in: 15]
+    [Time from request: 0.000472000 seconds]
+    Control transfer stage: Complete (3)
+DEVICE DESCRIPTOR
+    bLength: 18
+    bDescriptorType: 0x01 (DEVICE)
+    bcdUSB: 0x0200
+    bDeviceClass: Device (0x00)
+    bDeviceSubClass: 0
+    bDeviceProtocol: 0 (Use class code info from Interface Descriptors)
+    bMaxPacketSize0: 64
+    idVendor: Van Ooijen Technische Informatica (0x16c0)
+    idProduct: Unknown (0x04d4)
+    bcdDevice: 0x0214
+    iManufacturer: 1
+    iProduct: 2
+    iSerialNumber: 3
+    bNumConfigurations: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 0.186987       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 17: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352588000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352588000 seconds
+    [Time delta from previous captured frame: 0.000039000 seconds]
+    [Time delta from previous displayed frame: 0.000039000 seconds]
+    [Time since reference or first frame: 0.186987000 seconds]
+    Frame Number: 17
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c5c1e99c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 18]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 0.187045       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 18: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352646000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352646000 seconds
+    [Time delta from previous captured frame: 0.000058000 seconds]
+    [Time delta from previous displayed frame: 0.000058000 seconds]
+    [Time since reference or first frame: 0.187045000 seconds]
+    Frame Number: 18
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c5c1e99c0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 17]
+    [Time from request: 0.000058000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 0.187089       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 19: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352690000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352690000 seconds
+    [Time delta from previous captured frame: 0.000044000 seconds]
+    [Time delta from previous displayed frame: 0.000044000 seconds]
+    [Time since reference or first frame: 0.187089000 seconds]
+    Frame Number: 19
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57bc5790
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 20]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 0.187152       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 20: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352753000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352753000 seconds
+    [Time delta from previous captured frame: 0.000063000 seconds]
+    [Time delta from previous displayed frame: 0.000063000 seconds]
+    [Time since reference or first frame: 0.187152000 seconds]
+    Frame Number: 20
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57bc5790
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 19]
+    [Time from request: 0.000063000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 0.187186       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 21: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352787000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352787000 seconds
+    [Time delta from previous captured frame: 0.000034000 seconds]
+    [Time delta from previous displayed frame: 0.000034000 seconds]
+    [Time since reference or first frame: 0.187186000 seconds]
+    Frame Number: 21
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4c10f620
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 22]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 0.187249       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 22: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352850000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352850000 seconds
+    [Time delta from previous captured frame: 0.000063000 seconds]
+    [Time delta from previous displayed frame: 0.000063000 seconds]
+    [Time since reference or first frame: 0.187249000 seconds]
+    Frame Number: 22
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4c10f620
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 21]
+    [Time from request: 0.000063000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 0.187270       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 23: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352871000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352871000 seconds
+    [Time delta from previous captured frame: 0.000021000 seconds]
+    [Time delta from previous displayed frame: 0.000021000 seconds]
+    [Time since reference or first frame: 0.187270000 seconds]
+    Frame Number: 23
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4def02a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 24]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 0.187314       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 24: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352915000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352915000 seconds
+    [Time delta from previous captured frame: 0.000044000 seconds]
+    [Time delta from previous displayed frame: 0.000044000 seconds]
+    [Time since reference or first frame: 0.187314000 seconds]
+    Frame Number: 24
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4def02a0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 23]
+    [Time from request: 0.000044000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 0.187348       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 25: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.352949000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.352949000 seconds
+    [Time delta from previous captured frame: 0.000034000 seconds]
+    [Time delta from previous displayed frame: 0.000034000 seconds]
+    [Time since reference or first frame: 0.187348000 seconds]
+    Frame Number: 25
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c537109b0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 26]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 0.187402       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 26: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.353003000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.353003000 seconds
+    [Time delta from previous captured frame: 0.000054000 seconds]
+    [Time delta from previous displayed frame: 0.000054000 seconds]
+    [Time since reference or first frame: 0.187402000 seconds]
+    Frame Number: 26
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c537109b0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 25]
+    [Time from request: 0.000054000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 0.187448       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 27: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.353049000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.353049000 seconds
+    [Time delta from previous captured frame: 0.000046000 seconds]
+    [Time delta from previous displayed frame: 0.000046000 seconds]
+    [Time since reference or first frame: 0.187448000 seconds]
+    Frame Number: 27
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c517d49b0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 28]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 0.187512       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 28: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.353113000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.353113000 seconds
+    [Time delta from previous captured frame: 0.000064000 seconds]
+    [Time delta from previous displayed frame: 0.000064000 seconds]
+    [Time since reference or first frame: 0.187512000 seconds]
+    Frame Number: 28
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c517d49b0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 27]
+    [Time from request: 0.000064000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 0.373243       host                  1.63.0                USB      36     GET DESCRIPTOR Request DEVICE
+
+Frame 29: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.538844000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.538844000 seconds
+    [Time delta from previous captured frame: 0.185731000 seconds]
+    [Time delta from previous displayed frame: 0.185731000 seconds]
+    [Time since reference or first frame: 0.373243000 seconds]
+    Frame Number: 29
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c5ca51010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 30]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: DEVICE (0x01)
+    Language Id: no language specified (0x0000)
+    wLength: 18
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 0.373499       1.63.0                host                  USB      46     GET DESCRIPTOR Response DEVICE
+
+Frame 30: 46 bytes on wire (368 bits), 46 bytes captured (368 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539100000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539100000 seconds
+    [Time delta from previous captured frame: 0.000256000 seconds]
+    [Time delta from previous displayed frame: 0.000256000 seconds]
+    [Time since reference or first frame: 0.373499000 seconds]
+    Frame Number: 30
+    Frame Length: 46 bytes (368 bits)
+    Capture Length: 46 bytes (368 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c5ca51010
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 18
+    [Request in: 29]
+    [Time from request: 0.000256000 seconds]
+    Control transfer stage: Complete (3)
+DEVICE DESCRIPTOR
+    bLength: 18
+    bDescriptorType: 0x01 (DEVICE)
+    bcdUSB: 0x0200
+    bDeviceClass: Device (0x00)
+    bDeviceSubClass: 0
+    bDeviceProtocol: 0 (Use class code info from Interface Descriptors)
+    bMaxPacketSize0: 64
+    idVendor: Van Ooijen Technische Informatica (0x16c0)
+    idProduct: Unknown (0x04d4)
+    bcdDevice: 0x0214
+    iManufacturer: 1
+    iProduct: 2
+    iSerialNumber: 3
+    bNumConfigurations: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 0.373591       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 31: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539192000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539192000 seconds
+    [Time delta from previous captured frame: 0.000092000 seconds]
+    [Time delta from previous displayed frame: 0.000092000 seconds]
+    [Time since reference or first frame: 0.373591000 seconds]
+    Frame Number: 31
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c5cb27400
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 32]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 0.373713       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 32: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539314000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539314000 seconds
+    [Time delta from previous captured frame: 0.000122000 seconds]
+    [Time delta from previous displayed frame: 0.000122000 seconds]
+    [Time since reference or first frame: 0.373713000 seconds]
+    Frame Number: 32
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c5cb27400
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 31]
+    [Time from request: 0.000122000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 0.373787       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 33: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539388000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539388000 seconds
+    [Time delta from previous captured frame: 0.000074000 seconds]
+    [Time delta from previous displayed frame: 0.000074000 seconds]
+    [Time since reference or first frame: 0.373787000 seconds]
+    Frame Number: 33
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c579cb9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 34]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 0.373874       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 34: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539475000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539475000 seconds
+    [Time delta from previous captured frame: 0.000087000 seconds]
+    [Time delta from previous displayed frame: 0.000087000 seconds]
+    [Time since reference or first frame: 0.373874000 seconds]
+    Frame Number: 34
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c579cb9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 33]
+    [Time from request: 0.000087000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 0.373969       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 35: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539570000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539570000 seconds
+    [Time delta from previous captured frame: 0.000095000 seconds]
+    [Time delta from previous displayed frame: 0.000095000 seconds]
+    [Time since reference or first frame: 0.373969000 seconds]
+    Frame Number: 35
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57aca9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 36]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 0.374099       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 36: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539700000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539700000 seconds
+    [Time delta from previous captured frame: 0.000130000 seconds]
+    [Time delta from previous displayed frame: 0.000130000 seconds]
+    [Time since reference or first frame: 0.374099000 seconds]
+    Frame Number: 36
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57aca9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 35]
+    [Time from request: 0.000130000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 0.374170       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 37: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539771000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539771000 seconds
+    [Time delta from previous captured frame: 0.000071000 seconds]
+    [Time delta from previous displayed frame: 0.000071000 seconds]
+    [Time since reference or first frame: 0.374170000 seconds]
+    Frame Number: 37
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c545a89d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 38]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 0.374292       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 38: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539893000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539893000 seconds
+    [Time delta from previous captured frame: 0.000122000 seconds]
+    [Time delta from previous displayed frame: 0.000122000 seconds]
+    [Time since reference or first frame: 0.374292000 seconds]
+    Frame Number: 38
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c545a89d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 37]
+    [Time from request: 0.000122000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 0.374377       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 39: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.539978000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.539978000 seconds
+    [Time delta from previous captured frame: 0.000085000 seconds]
+    [Time delta from previous displayed frame: 0.000085000 seconds]
+    [Time since reference or first frame: 0.374377000 seconds]
+    Frame Number: 39
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4b60f9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 40]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 9
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 0.374500       1.63.0                host                  USB      37     GET DESCRIPTOR Response CONFIGURATION
+
+Frame 40: 37 bytes on wire (296 bits), 37 bytes captured (296 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.540101000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.540101000 seconds
+    [Time delta from previous captured frame: 0.000123000 seconds]
+    [Time delta from previous displayed frame: 0.000123000 seconds]
+    [Time since reference or first frame: 0.374500000 seconds]
+    Frame Number: 40
+    Frame Length: 37 bytes (296 bits)
+    Capture Length: 37 bytes (296 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c4b60f9d0
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 9
+    [Request in: 39]
+    [Time from request: 0.000123000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 0.374571       host                  1.63.0                USB      36     GET DESCRIPTOR Request CONFIGURATION
+
+Frame 41: 36 bytes on wire (288 bits), 36 bytes captured (288 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.540172000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.540172000 seconds
+    [Time delta from previous captured frame: 0.000071000 seconds]
+    [Time delta from previous displayed frame: 0.000071000 seconds]
+    [Time since reference or first frame: 0.374571000 seconds]
+    Frame Number: 41
+    Frame Length: 36 bytes (288 bits)
+    Capture Length: 36 bytes (288 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb]
+USB URB
+    [Source: host]
+    [Destination: 1.63.0]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57bc5790
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_GET_DESCRIPTOR_FROM_DEVICE (0x000b)
+    IRP information: 0x00, Direction: FDO -> PDO
+        0000 000. = Reserved: 0x00
+        .... ...0 = Direction: FDO -> PDO (0x0)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 8
+    [Response in: 42]
+    Control transfer stage: Setup (0)
+Setup Data
+    bmRequestType: 0x80
+        1... .... = Direction: Device-to-host
+        .00. .... = Type: Standard (0x0)
+        ...0 0000 = Recipient: Device (0x00)
+    bRequest: GET DESCRIPTOR (6)
+    Descriptor Index: 0x00
+    bDescriptorType: CONFIGURATION (0x02)
+    Language Id: no language specified (0x0000)
+    wLength: 141
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 0.374696       1.63.0                host                  USB      169    GET DESCRIPTOR Response CONFIGURATION
+
+Frame 42: 169 bytes on wire (1352 bits), 169 bytes captured (1352 bits) on interface \\.\USBPcap1, id 0
+    Interface id: 0 (\\.\USBPcap1)
+        Interface name: \\.\USBPcap1
+        Interface description: USBPcap1
+    Encapsulation type: USB packets with USBPcap header (152)
+    Arrival Time: Feb  3, 2022 18:59:53.540297000 Russie TZ 10
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1643875193.540297000 seconds
+    [Time delta from previous captured frame: 0.000125000 seconds]
+    [Time delta from previous displayed frame: 0.000125000 seconds]
+    [Time since reference or first frame: 0.374696000 seconds]
+    Frame Number: 42
+    Frame Length: 169 bytes (1352 bits)
+    Capture Length: 169 bytes (1352 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: usb:usbhid:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio:usbaudio]
+USB URB
+    [Source: 1.63.0]
+    [Destination: host]
+    USBPcap pseudoheader length: 28
+    IRP ID: 0xffffcf0c57bc5790
+    IRP USBD_STATUS: USBD_STATUS_SUCCESS (0x00000000)
+    URB Function: URB_FUNCTION_CONTROL_TRANSFER (0x0008)
+    IRP information: 0x01, Direction: PDO -> FDO
+        0000 000. = Reserved: 0x00
+        .... ...1 = Direction: PDO -> FDO (0x1)
+    URB bus id: 1
+    Device address: 63
+    Endpoint: 0x80, Direction: IN
+        1... .... = Direction: IN (1)
+        .... 0000 = Endpoint number: 0
+    URB transfer type: URB_CONTROL (0x02)
+    Packet Data Length: 141
+    [Request in: 41]
+    [Time from request: 0.000125000 seconds]
+    Control transfer stage: Complete (3)
+CONFIGURATION DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x02 (CONFIGURATION)
+    wTotalLength: 141
+    bNumInterfaces: 2
+    bConfigurationValue: 1
+    iConfiguration: 0
+    Configuration bmAttributes: 0xc0  SELF-POWERED  NO REMOTE-WAKEUP
+        1... .... = Must be 1: Must be 1 for USB 1.1 and higher
+        .1.. .... = Self-Powered: This device is SELF-POWERED
+        ..0. .... = Remote Wakeup: This device does NOT support remote wakeup
+    bMaxPower: 255  (510mA)
+INTERFACE DESCRIPTOR (0.0): class HID
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 2
+    bInterfaceClass: HID (0x03)
+    bInterfaceSubClass: No Subclass (0x00)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+HID DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x21 (HID)
+    bcdHID: 0x0111
+    bCountryCode: Not Supported (0x00)
+    bNumDescriptors: 1
+    bDescriptorType: HID Report (0x22)
+    wDescriptorLength: 33
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x82  IN  Endpoint:2
+        1... .... = Direction: IN Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 64
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0100 0000 = Maximum Packet Size: 64
+    bInterval: 1
+ENDPOINT DESCRIPTOR
+    bLength: 7
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x02  OUT  Endpoint:2
+        0... .... = Direction: OUT Endpoint
+        .... 0010 = Endpoint Number: 0x2
+    bmAttributes: 0x03
+        .... ..11 = Transfertype: Interrupt-Transfer (0x3)
+    wMaxPacketSize: 32
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0010 0000 = Maximum Packet Size: 32
+    bInterval: 2
+INTERFACE DESCRIPTOR (0.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 0
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Control (0x01)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Control Interface Descriptor: Header Descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Header Descriptor (0x01)
+    Version: 1,00
+    Total length: 39
+    Total number of interfaces: 1
+    Interface number: 1
+Class-specific Audio Control Interface Descriptor: Input terminal descriptor
+    bLength: 12
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Input terminal descriptor (0x02)
+    Terminal ID: 1
+    Terminal Type: Microphone (0x0201)
+    Assoc Terminal: 0
+    Number Channels: 1
+    Channel Config: 0x0000
+        .... .... .... ...0 = Left Front: False
+        .... .... .... ..0. = Right Front: False
+        .... .... .... .0.. = Center Front: False
+        .... .... .... 0... = Low Frequency Enhancement: False
+        .... .... ...0 .... = Left Surround: False
+        .... .... ..0. .... = Right Surround: False
+        .... .... .0.. .... = Left of Center: False
+        .... .... 0... .... = Right of Center: False
+        .... ...0 .... .... = Surround: False
+        .... ..0. .... .... = Side Left: False
+        .... .0.. .... .... = Side Right: False
+        .... 0... .... .... = Top: False
+        0000 .... .... .... = Reserved: 0x0
+    Channel Names: 0
+    String descriptor index: 0
+Class-specific Audio Control Interface Descriptor: Feature unit descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Feature unit descriptor (0x06)
+    Unit ID: 2
+    Source ID: 1
+    Control Size: 2
+    Controls: 0100
+        Master channel 0 Control: 0x01, Mute
+            .... ...1 = Mute: True
+            .... ..0. = Volume: False
+            .... .0.. = Bass: False
+            .... 0... = Mid: False
+            ...0 .... = Treble: False
+            ..0. .... = Graphic Equalizer: False
+            .0.. .... = Automatic Gain: False
+            0... .... = Delay: False
+        Master channel 0Control: 0x00
+            .... ...0 = Bass Boost: False
+            .... ..0. = Loudness: False
+            0000 00.. = Reserved: 0x00
+    Feature: 0
+Class-specific Audio Control Interface Descriptor: Output terminal descriptor
+    bLength: 9
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Output terminal descriptor (0x03)
+    Terminal ID: 3
+    Terminal Type: USB Streaming (0x0101)
+    Assoc Terminal: 0
+    Source ID: 2
+    String descriptor index: 0
+INTERFACE DESCRIPTOR (1.0): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 0
+    bNumEndpoints: 0
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+INTERFACE DESCRIPTOR (1.1): class Audio
+    bLength: 9
+    bDescriptorType: 0x04 (INTERFACE)
+    bInterfaceNumber: 1
+    bAlternateSetting: 1
+    bNumEndpoints: 1
+    bInterfaceClass: Audio (0x01)
+    bInterfaceSubClass: Audio Streaming (0x02)
+    bInterfaceProtocol: 0x00
+    iInterface: 0
+Class-specific Audio Streaming Interface Descriptor: General AS Descriptor
+    bLength: 7
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: General AS Descriptor (0x01)
+    Connected Terminal ID: 3
+    Interface delay in frames: 1
+    Format: PCM (0x0001)
+Class-specific Audio Streaming Interface Descriptor: Format type descriptor
+    bLength: 11
+    bDescriptorType: 0x24 (audio class interface)
+    Subtype: Format type descriptor (0x02)
+    FormatType: 1
+    Number Channels: 1
+    Subframe Size: 2
+    Bit Resolution: 16
+    Samples Frequence Type: 1
+    Samples Frequence: 44100
+ENDPOINT DESCRIPTOR
+    bLength: 9
+    bDescriptorType: 0x05 (ENDPOINT)
+    bEndpointAddress: 0x81  IN  Endpoint:1
+        1... .... = Direction: IN Endpoint
+        .... 0001 = Endpoint Number: 0x1
+    bmAttributes: 0x0d
+        .... ..01 = Transfertype: Isochronous-Transfer (0x1)
+        .... 11.. = Synchronisationtype: Synchronous (0x3)
+        ..00 .... = Behaviourtype: Data-Endpoint (0x0)
+    wMaxPacketSize: 90
+        ...0 0... .... .... = Transactions per microframe: 1 (0)
+        .... ..00 0101 1010 = Maximum Packet Size: 90
+    bInterval: 4
+    bRefresh: 0
+    bSynchAddress: 0
+Class-specific Audio Streaming Endpoint Descriptor
+    bLength: 7
+    bDescriptorType: 0x25 (audio class endpoint)
+    Subtype: General Descriptor (0x01)
+    Attributes: 0x00
+        .... ...0 = Sampling Frequency Control: False
+        .... ..0. = Pitch Control: False
+        .000 00.. = Reserved: 0x00
+        0... .... = MaxPacketsOnly: False
+    Lock Delay Units: Undefined (0)
+    Lock Delay: 0
