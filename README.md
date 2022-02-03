@@ -12,7 +12,7 @@ The goal is to develop a small ultrasound microphone connected to the usb port o
 # Status of the project
 - PCB : Done. https://oshwlab.com/damien.brouste/teensymic-sgtl5000
 - High Samplerate : Done. Based on the work of Frank B : https://forum.pjrc.com/threads/67749-USB-Audio-samplerates-added
-- Create the microphone USB descriptor : In progress. Windows can't recognize it yet
+- Create the microphone USB descriptor : In progress. Windows/Android can't recognize it yet. 
 
 # Project log
 
