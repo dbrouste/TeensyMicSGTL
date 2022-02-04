@@ -1,6 +1,6 @@
 # TeensyMicSGTL
 
-https://image.easyeda.com/pullimage/XBNE2StlGrQPaFqrcQ4p9PTP7wEA845GwjZYXout.jpeg
+![Board](https://image.easyeda.com/pullimage/XBNE2StlGrQPaFqrcQ4p9PTP7wEA845GwjZYXout.jpeg)
 
 # Description
 The goal is to develop a small ultrasound microphone connected to the usb port of a phone.
