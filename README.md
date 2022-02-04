@@ -1,10 +1,6 @@
 # TeensyMicSGTL
-Teensy USB Mic (Work in Progress)
-How to use it :
 
-Copy the files in Framework folder to your Framework
-
-Copy the PlatformIO files to your project
+https://image.easyeda.com/pullimage/XBNE2StlGrQPaFqrcQ4p9PTP7wEA845GwjZYXout.jpeg
 
 # Description
 The goal is to develop a small ultrasound microphone connected to the usb port of a phone.
