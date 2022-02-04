@@ -3,7 +3,8 @@
 ![Board](https://image.easyeda.com/pullimage/XBNE2StlGrQPaFqrcQ4p9PTP7wEA845GwjZYXout.jpeg)
 
 # Description
-The goal is to develop a small ultrasound microphone connected to the usb port of a phone.
+The goal is to develop a small (size of a Teensy4.0) ultrasound microphone connected to the usb port of a phone.
+It is composed of a custom PCB board and a Teensy 4.0
 
 # Status of the project
 - PCB : Done. https://oshwlab.com/damien.brouste/teensymic-sgtl5000
