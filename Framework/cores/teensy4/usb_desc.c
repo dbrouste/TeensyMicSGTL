@@ -456,7 +456,7 @@ static uint8_t multitouch_report_desc[] = {
 };
 #endif
 
-#ifdef SEREMU_INTERFACE
+#ifdef SEREMU_INTERFAC2E
 static uint8_t seremu_report_desc[] = {
         0x06, 0xC9, 0xFF,               // Usage Page 0xFFC9 (vendor defined)
         0x09, 0x04,                     // Usage 0x04
@@ -593,7 +593,7 @@ static uint8_t flightsim_report_desc[] = {
 #endif
 
 #define SEREMU_INTERFACE_DESC_POS	FLIGHTSIM_INTERFACE_DESC_POS+FLIGHTSIM_INTERFACE_DESC_SIZE
-#ifdef SEREMU_INTERFACE
+#ifdef SEREMU_INTERFAC2E
 #define SEREMU_INTERFACE_DESC_SIZE	9+9+7+7
 #define SEREMU_HID_DESC_OFFSET		SEREMU_INTERFACE_DESC_POS+9
 #else
@@ -1268,7 +1268,7 @@ PROGMEM const uint8_t usb_config_descriptor_480[CONFIG_DESC_SIZE] = {
         FLIGHTSIM_RX_INTERVAL,			// bInterval
 #endif // FLIGHTSIM_INTERFACE
 
-#ifdef SEREMU_INTERFACE
+#ifdef SEREMU_INTERFAC2E
 	// configuration for 480 Mbit/sec speed
         // interface descriptor, USB spec 9.6.5, page 267-269, Table 9-12
         9,                                      // bLength
@@ -1688,7 +1688,7 @@ AUDIO_INPUT_CHANNEL_NUMBER,        // bNrChannels = One channel.
 //Table B-7: USB Microphone Standard AS Interface Descriptor (Alt. Set. 0)
 9,        // bLength = Size of this descriptor, in bytes. 
 0x04,        // bDescriptorType = INTERFACE descriptor. 
-0x01,        // bInterfaceNumber = Index of this interface. 
+0x02,        // bInterfaceNumber = Index of this interface. 
 0x00,        // bAlternateSetting = Index of this alternate setting. 
 0x00,        // bNumEndpoints = 0 endpoints. 
 0x01,        // bInterfaceClass = AUDIO. 
@@ -1699,7 +1699,7 @@ AUDIO_INPUT_CHANNEL_NUMBER,        // bNrChannels = One channel.
 //Table B-8: USB Microphone Standard AS Interface Descriptor
 9,        // bLength = Size of this descriptor, in bytes. 
 0x04,        // bDescriptorType = INTERFACE descriptor. 
-0x01,        // bInterfaceNumber = Index of this interface. 
+0x02,        // bInterfaceNumber = Index of this interface. 
 0x01,        // bAlternateSetting = Index of this alternate setting. 
 0x01,        // bNumEndpoints = One endpoint. 
 0x01,        // bInterfaceClass = AUDIO. 
@@ -2417,7 +2417,7 @@ PROGMEM const uint8_t usb_config_descriptor_12[CONFIG_DESC_SIZE] = {
         FLIGHTSIM_RX_INTERVAL,			// bInterval
 #endif // FLIGHTSIM_INTERFACE
 
-#ifdef SEREMU_INTERFACE
+#ifdef SEREMU_INTERFAC2E
 	// configuration for 12 Mbit/sec speed
         // interface descriptor, USB spec 9.6.5, page 267-269, Table 9-12
         9,                                      // bLength
@@ -2838,7 +2838,7 @@ AUDIO_INPUT_CHANNEL_NUMBER,        // bNrChannels = One channel.
 //Table B-7: USB Microphone Standard AS Interface Descriptor (Alt. Set. 0)
 9,        // bLength = Size of this descriptor, in bytes. 
 0x04,        // bDescriptorType = INTERFACE descriptor. 
-0x01,        // bInterfaceNumber = Index of this interface. 
+0x02,        // bInterfaceNumber = Index of this interface. 
 0x00,        // bAlternateSetting = Index of this alternate setting. 
 0x00,        // bNumEndpoints = 0 endpoints. 
 0x01,        // bInterfaceClass = AUDIO. 
@@ -2849,7 +2849,7 @@ AUDIO_INPUT_CHANNEL_NUMBER,        // bNrChannels = One channel.
 //Table B-8: USB Microphone Standard AS Interface Descriptor
 9,        // bLength = Size of this descriptor, in bytes. 
 0x04,        // bDescriptorType = INTERFACE descriptor. 
-0x01,        // bInterfaceNumber = Index of this interface. 
+0x02,        // bInterfaceNumber = Index of this interface. 
 0x01,        // bAlternateSetting = Index of this alternate setting. 
 0x01,        // bNumEndpoints = One endpoint. 
 0x01,        // bInterfaceClass = AUDIO. 
@@ -3050,7 +3050,7 @@ const usb_descriptor_list_t usb_descriptor_list[] = {
 	{0x0600, 0x0000, qualifier_descriptor, sizeof(qualifier_descriptor)},
 	{0x0200, 0x0000, usb_config_descriptor_480, CONFIG_DESC_SIZE},
 	{0x0700, 0x0000, usb_config_descriptor_12, CONFIG_DESC_SIZE},
-#ifdef SEREMU_INTERFACE
+#ifdef SEREMU_INTERFAC2E
 	{0x2200, SEREMU_INTERFACE, seremu_report_desc, sizeof(seremu_report_desc)},
 	{0x2100, SEREMU_INTERFACE, usb_config_descriptor_480+SEREMU_HID_DESC_OFFSET, 9},
 #endif
