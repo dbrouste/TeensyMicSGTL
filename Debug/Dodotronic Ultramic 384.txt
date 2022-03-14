@@ -1,0 +1,289 @@
+Dodotronic Ultramic 384 BLE
+=========================== USB Port2 ===========================
+Connection Status		 :		0x01 (Device is connected)
+Port Chain				 :		1-2
+========================== Summary =========================
+Vendor ID		 		:		0x0869 (Visual Interaction)
+Product ID		 		:		0x0349
+USB version		 		:		2.00 -> wrong, device is Full-Speed only
+Port maximum Speed		:		High-Speed
+Device maximum Speed	:		Full-Speed
+Device Connection Speed	:		Full-Speed
+Self Powered		 	:		no
+Demanded Current		:		100 mA
+Used Endpoints		 	:		1
+======================== USB Device ========================
++++++++++++++++++ Device Information ++++++++++++++++++
+Device Description		:		USB-Verbundgerät
+Device Path 			:		\\?\USB#VID_0869&PID_0349#00000000034F#{a5dcbf10-6530-11d2-901f-00c04fb951ed} (GUID_DEVINTERFACE_USB_DEVICE)
+Kernel Name		 		:		\Device\USBPDO-15
+Device ID		 		:		USB\VID_0869&PID_0349\00000000034F
+Hardware IDs		 	:		USB\VID_0869&PID_0349&REV_0200 USB\VID_0869&PID_0349
+Driver KeyName		 	:		{36fc9e60-c465-11cf-8056-444553540000}\0039 (GUID_DEVCLASS_USB)
+Driver				 	:		\SystemRoot\System32\drivers\usbccgp.sys (Version: 10.0.19041.488 Date: 2020-09-11)
+Driver Inf		 		:		C:\Windows\inf\usb.inf
+Legacy BusType		 	:		PNPBus
+Class		 			:		USB
+Class GUID		 		:		{36fc9e60-c465-11cf-8056-444553540000} (GUID_DEVCLASS_USB)
+Service		 			:		usbccgp
+Enumerator		 		:		USB
+Location Info		 	:		Port_#0002.Hub_#0001
+Location IDs		 	:		PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(2), ACPI(_SB_)#ACPI(PCI0)#ACPI(XHC_)#ACPI(RHUB)#ACPI(HS02)
+Container ID		 	:		{329ceead-5eb7-5031-86b0-086abb39a56b}
+Manufacturer Info		:		(Standard-USB-Hostcontroller)
+Capabilities		 	:		0x94 (Removable, UniqueID, SurpriseRemovalOK)
+Status		 			:		0x0180600A (DN_DRIVER_LOADED, DN_STARTED, DN_DISABLEABLE, DN_REMOVABLE, DN_NT_ENUMERATOR, DN_NT_DRIVER)
+Problem Code		 	:		0
+Address		 			:		2
+HcDisableSelectiveSuspend: 0
+EnableSelectiveSuspend	:		0
+SelectiveSuspendEnabled	:		0
+EnhancedPowerMgmtEnabled:		0
+IdleInWorkingState		:		0
+WakeFromSleepState		:		0
+Power State		 		:		D0 (supported: D0, D3, wake from D0)
+Child Device 1		 	:		UltraMic384K 16bit r0 (USB-Audiogerät)Device Path 1 : \\?\USB#VID_0869&PID_0349&MI_00#7&3287a85e&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global (AM_KSCATEGORY_CAPTURE)
+Device Path 2 			:		\\?\USB#VID_0869&PID_0349&MI_00#7&3287a85e&1&0000#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\global (AM_KSCATEGORY_AUDIO)
+Kernel Name		 		:		\Device\0000019f
+Device ID		 		:		USB\VID_0869&PID_0349&MI_00\7&3287A85E&1&0000
+Class		 			:		MEDIA
+Driver KeyName		 	:		{4d36e96c-e325-11ce-bfc1-08002be10318}\0012	(GUID_DEVCLASS_MEDIA)
+Service		 			:		usbaudio
+Child Device 1		 	:		Microphone (UltraMic384K 16bit r0) (Audioendpunkt)
+Device Path		 		:		\\?\SWD#MMDEVAPI#{0.0.1.00000000}.{63dd9e86-954e-45c4-900f-7783321ee51c}#{2eef81be-33fa-4800-9670-1cd474972c3f} (DEVINTERFACE_AUDIO_CAPTURE)
+Kernel Name		 		:		\Device\000001a1
+Device ID		 		:		SWD\MMDEVAPI\{0.0.1.00000000}.{63DD9E86-954E-45C4-900F-7783321EE51C}
+Class		 			:		AudioEndpoint
+Driver KeyName		 	:		{c166523c-fe0c-4a94-a586-f1a80cfbbf3e}\0016
+(AUDIOENDPOINT_CLASS_UUID)
++++++++++++++++++ Registry USB Flags +++++++++++++++++
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\086903490200
+osvc		 			:		REG_BINARY 00 00
+---------------- Connection Information ---------------
+Connection Index		:		0x02 (Port 2)
+Connection Status		:		0x01 (DeviceConnected)
+Current Config Value	:		0x01 (Configuration 1)
+Device Address		 	:		0x1D (29)
+Is Hub		 			:		0x00 (no)
+Device Bus Speed		:		0x01 (Full-Speed)
+Number Of Open Pipes	:		0x00 (0 pipes to data endpoints)
+Data (HexDump)		 	:		02 00 00 00 12 01 00 02 00 00 00 40 69 08 49 03		...........@i.I.
+								00 02 01 02 03 01 01 01 00 1D 00 00 00 00 00 01		................
+								00 00 00											...
+--------------- Connection Information V2 -------------
+Connection Index		:		0x02 (2)
+Length					:		0x10 (16 bytes)
+SupportedUsbProtocols	:		0x03
+Usb110		 			:		1 (yes, port supports USB 1.1)
+Usb200					:		1 (yes, port supports USB 2.0)
+Usb300		 			:		0 (no, port not supports USB 3.0)
+ReservedMBZ		 		:		0x00
+Flags		 			:		0x00
+DevIsOpAtSsOrHigher		:		0 (Device is not operating at SuperSpeed or
+higher)
+DevIsSsCapOrHigher		:		0 (Device is not SuperSpeed capable or higher)
+DevIsOpAtSsPlusOrHigher	:		0 (Device is not operating at SuperSpeedPlus or
+higher)
+DevIsSsPlusCapOrHigher	:		0 (Device is not SuperSpeedPlus capable or
+higher)
+ReservedMBZ		 		:		0x00Data 
+(HexDump)		 		:		02 00 00 00 10 00 00 00 03 00 00 00 00 00 00 00		................
+---------------------- Device Descriptor ----------------------
+bLength		 			:		0x12 (18 bytes)
+bDescriptorType		 	:		0x01 (Device Descriptor)
+bcdUSB		 			:		0x200 (USB Version 2.00) -> wrong, device is Full-Speed only
+bDeviceClass		 	:		0x00 (defined by the interface descriptors)
+bDeviceSubClass		 	:		0x00
+bDeviceProtocol		 	:		0x00
+bMaxPacketSize0		 	:		0x40 (64 bytes)
+idVendor		 		:		0x0869 (Visual Interaction)
+idProduct		 		:		0x0349
+bcdDevice		 		:		0x0200
+iManufacturer		 	:		0x01 (String Descriptor 1)
+Language 0x0409		 	:		"DODOTRONIC Technology"
+iProduct		 		:		0x02 (String Descriptor 2)
+Language 0x0409		 	:		"UltraMic384K 16bit r0"
+iSerialNumber		 	:		0x03 (String Descriptor 3)
+Language 0x0409		 	:		"00000000034F"
+bNumConfigurations		:		0x01 (1 Configuration)
+Data (HexDump)		 	:		12 01 00 02 00 00 00 40 69 08 49 03 00 02 01 02		.......@i.I.....
+								03 01												..
+------------------ Configuration Descriptor -------------------
+bLength		 			:		0x09 (9 bytes)
+bDescriptorType		 	:		0x02 (Configuration Descriptor)
+wTotalLength		 	:		0x006D (109 bytes)
+bNumInterfaces		 	:		0x02 (2 Interfaces)
+bConfigurationValue		:		0x01 (Configuration 1)
+iConfiguration		 	:		0x00 (No String Descriptor)
+bmAttributes		 	:		0x80
+D7: Reserved, set 1		:		0x01
+D6: Self Powered		:		0x00 (no)
+D5: Remote Wakeup		:		0x00 (no)
+D4..0: Reserved, set 0	:		0x00
+MaxPower		 		:		0x32 (100 mA)
+Data (HexDump)		 	:		09 02 6D 00 02 01 00 80 32 09 04 00 00 00 01 01		..m.....2.......
+								00 00 09 24 01 00 01 26 00 01 01 0C 24 02 01 01		...$...&....$...
+								02 00 01 00 00 00 00 09 24 06 02 01 01 02 00 00		........$.......
+								09 24 03 03 01 01 00 02 00 09 04 01 00 00 01 02		.$..............
+								00 00 09 04 01 01 01 01 02 00 00 07 24 01 03 01		............$...
+								01 00 0B 24 02 01 01 02 10 01 00 DC 05 09 05 81		...$............
+								05 04 03 01 00 00 07 25 01 00 00 00 00				.......%.....
+---------------- Interface Descriptor -----------------
+bLength		 			:		0x09 (9 bytes)
+bDescriptorType		 	:		0x04 (Interface Descriptor)
+bInterfaceNumber		:		0x00
+bAlternateSetting		:		0x00
+bNumEndpoints		 	:		0x00 (Default Control Pipe only)bInterfaceClass		 :		0x01 (Audio)
+bInterfaceSubClass		:		0x01 (Audio Control)
+bInterfaceProtocol		:		0x00
+iInterface		 		:		0x00 (No String Descriptor)
+Data (HexDump)		 	:		09 04 00 00 00 01 01 00 00 .........
+------ Audio Control Interface Header Descriptor ------
+bLength		 			:		0x09 (9 bytes)
+bDescriptorType		 	:		0x24 (Audio Interface Descriptor)
+bDescriptorSubtype		:		0x01 (Header)
+bcdADC		 			:		0x0100
+wTotalLength		 	:		0x0026 (38 bytes)
+bInCollection		 	:		0x01
+baInterfaceNr[1]		:		0x01
+Data (HexDump)		 	:		09 24 01 00 01 26 00 01 01 .$...&...
+------- Audio Control Input Terminal Descriptor -------
+bLength		 			:		0x0C (12 bytes)
+bDescriptorType		 	:		0x24 (Audio Interface Descriptor)
+bDescriptorSubtype		:		0x02 (Input Terminal)
+bTerminalID		 		:		0x01
+wTerminalType		 	:		0x0201 (Microphone)
+bAssocTerminal		 	:		0x00
+bNrChannels		 		:		0x01 (1 channel)
+wChannelConfig		 	:		0x0000 (-)
+iChannelNames		 	:		0x00 (No String Descriptor)
+iTerminal		 		:		0x00 (No String Descriptor)
+Data (HexDump)		 	:		0C 24 02 01 01 02 00 01 00 00 00 00	.$..........
+-------- Audio Control Feature Unit Descriptor --------
+bLength		 			:		0x09 (9 bytes)
+bDescriptorType		 	:		0x24 (Audio Interface Descriptor)
+bDescriptorSubtype		:		0x06 (Feature Unit)
+bUnitID		 			:		0x02 (2)
+bSourceID		 		:		0x01 (1)
+bControlSize		 	:		0x01 (1 byte per control)
+bmaControls[0]		 	:		0x02
+D0: Mute		 		:		0
+D1: Volume		 		:		1
+D2: Bass		 		:		0
+D3: Mid		 			:		0
+D4: Treble		 		:		0
+D5: Graphic Equalizer	:		0
+D6: Automatic Gain		:		0
+D7: Delay		 		:		0
+bmaControls[1]		 	:		0x00
+D0: Mute		 		:		0
+D1: Volume		 		:		0
+D2: Bass		 		:		0
+D3: Mid		 			:		0
+D4: Treble		 		:		0
+D5: Graphic Equalizer	:		0
+D6: Automatic Gain		:		0
+D7: Delay		 		:		0
+iFeature		 		:		0x00 (No String Descriptor)
+Data (HexDump)		 	:		09 24 06 02 01 01 02 00 00	.$.......
+------- Audio Control Output Terminal Descriptor ------
+bLength		 			:		0x09 (9 bytes)
+bDescriptorType		 	:		0x24 (Audio Interface Descriptor)
+bDescriptorSubtype		:		0x03 (Output Terminal)
+bTerminalID		 		:		0x03
+wTerminalType		 	:		0x0101 (USB streaming)
+bAssocTerminal		 	:		0x00 (0)
+bSourceID		 		:		0x02 (2)
+iTerminal		 		:		0x00 (No String Descriptor)
+Data (HexDump)		 	:		09 24 03 03 01 01 00 02 00	.$.......
+---------------- Interface Descriptor -----------------
+bLength		 			:		0x09 (9 bytes)
+bDescriptorType		 	:		0x04 (Interface Descriptor)
+bInterfaceNumber		:		0x01
+bAlternateSetting		:		0x00
+bNumEndpoints		 	:		0x00 (Default Control Pipe only)
+bInterfaceClass		 	:		0x01 (Audio)
+bInterfaceSubClass		:		0x02 (Audio Streaming)
+bInterfaceProtocol		:		0x00
+iInterface		 		:		0x00 (No String Descriptor)
+Data (HexDump)		 	:		09 04 01 00 00 01 02 00 00 	.........
+---------------- Interface Descriptor -----------------
+bLength		 			:		0x09 (9 bytes)
+bDescriptorType		 	:		0x04 (Interface Descriptor)
+bInterfaceNumber		:		0x01
+bAlternateSetting		:		0x01
+bNumEndpoints		 	:		0x01 (1 Endpoint)
+bInterfaceClass		 	:		0x01 (Audio)
+bInterfaceSubClass		:		0x02 (Audio Streaming)
+bInterfaceProtocol		:		0x00
+iInterface		 		:		0x00 (No String Descriptor)
+Data (HexDump)		 	:		09 04 01 01 01 01 02 00 00 .........
+-------- Audio Streaming Interface Descriptor ---------
+bLength		 			:		0x07 (7 bytes)
+bDescriptorType		 	:		0x24 (Audio Interface Descriptor)
+bDescriptorSubtype		:		0x01
+bTerminalLink		 	:		0x03
+bDelay		 			:		0x01
+wFormatTag		 		:		0x0001 (PCM)
+Data (HexDump)		 	:		07 24 01 03 01 01 00 .$.....
+------- Audio Streaming Format Type Descriptor --------
+bLength		 			:		0x0B (11 bytes)
+bDescriptorType		 	:		0x24 (Audio Interface Descriptor)
+bDescriptorSubtype		:		0x02 (Format Type)
+bFormatType		 		:		0x01 (FORMAT_TYPE_I)
+bNrChannels		 		:		0x01 (1 channel)
+bSubframeSize		 	:		0x02 (2 bytes per subframe)
+bBitResolution		 	:		0x10 (16 bits per sample)
+bSamFreqType		 	:		0x01 (supports 1 sample frequence)
+tSamFreq[1]		 		:		0x5DC00 (384000 Hz)
+Data (HexDump)		 	:		0B 24 02 01 01 02 10 01 00 DC 05	.$.........
+----------------- Endpoint Descriptor -----------------
+bLength		 			:		0x09 (9 bytes)
+bDescriptorType		 	:		0x05 (Endpoint Descriptor)
+bEndpointAddress		:		0x81 (Direction=IN EndpointID=1)
+bmAttributes		 	:		0x05 (TransferType=Isochronous SyncType=Asynchronous EndpointType=Data)
+wMaxPacketSize		 	:		0x0304 (772 bytes)
+bInterval		 		:		0x01 (1 ms)
+bRefresh		 		:		0x00
+bSynchAddress		 	:		0x00
+Data (HexDump)		 	:		09 05 81 05 04 03 01 00 00	.........
+----------- Audio Data Endpoint Descriptor ------------
+bLength		 			:		0x07 (7 bytes)
+bDescriptorType		 	:		0x25 (Audio Endpoint Descriptor)
+bDescriptorSubtype		:		0x01 (General)
+bmAttributes		 	:		0x00
+D0		 				:		Sampling Freq		 :		0x00 (not supported)
+D1		 				:		Pitch		 :		0x00 (not supported)
+D6..2: Reserved		 	:		0x00
+D7		 				:		MaxPacketsOnly		 :		0x00 (no)
+bLockDelayUnits		 	:		0x00 (Undefined)
+wLockDelay		 		:		0x0000
+Data (HexDump)		 	:		07 25 01 00 00 00 00	.%.....
+----------------- Device Qualifier Descriptor -----------------
+Error		 			:		ERROR_GEN_FAILURE
+-------------------- String Descriptors -------------------
+------ String Descriptor 0 ------
+bLength		 			:		0x04 (4 bytes)
+bDescriptorType		 	:		0x03 (String Descriptor)
+Language ID[0]		 	:		0x0409 (English - United States)
+Data (HexDump)		 	:		04 03 09 04	....
+------ String Descriptor 1 ------
+bLength		 			:		0x2C (44 bytes)
+bDescriptorType		 	:		0x03 (String Descriptor)
+Language 0x0409		 	:		"DODOTRONIC Technology"
+Data (HexDump)		 	:		2C 03 44 00 4F 00 44 00 4F 00 54 00 52 00 4F 00		,.D.O.D.O.T.R.O.
+								4E 00 49 00 43 00 20 00 54 00 65 00 63 00 68 00		N.I.C. .T.e.c.h.
+								6E 00 6F 00 6C 00 6F 00 67 00 79 00					n.o.l.o.g.y.
+------ String Descriptor 2 ------
+bLength		 			:		0x2C (44 bytes)
+bDescriptorType		 	:		0x03 (String Descriptor)
+Language 0x0409		 	:		"UltraMic384K 16bit r0"
+Data (HexDump)		 	:		2C 03 55 00 6C 00 74 00 72 00 61 00 4D 00 69 00		,.U.l.t.r.a.M.i.
+								63 00 33 00 38 00 34 00 4B 00 20 00 31 00 36 00		c.3.8.4.K. .1.6.
+								62 00 69 00 74 00 20 00 72 00 30 00					b.i.t. .r.0.
+------ String Descriptor 3 ------
+bLength		 			:		0x1A (26 bytes)
+bDescriptorType		 	:		0x03 (String Descriptor)
+Language 0x0409		 	:		"00000000034F"
+Data (HexDump)		 	:		1A 03 30 00 30 00 30 00 30 00 30 00 30 00 30 00		..0.0.0.0.0.0.0.
+								30 00 30 00 33 00 34 00 46 00						0.0.3.4.F

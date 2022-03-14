@@ -1,0 +1,405 @@
+Echo Meter Touch 2 (non pro)
+
+    =========================== USB Port2 ===========================
+
+Connection Status        : 0x01 (Device is connected)
+Port Chain               : 2-2
+Properties               : 0x09
+ IsUserConnectable       : yes
+ PortIsDebugCapable      : no
+ PortHasMultiCompanions  : no
+ PortConnectorIsTypeC    : yes
+ConnectionIndex          : 0x02 (Port 2)
+CompanionIndex           : 0
+ CompanionHubSymLnk      : USB#ROOT_HUB30#5&138c0d0d&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8}
+ CompanionPortNumber     : 0x06 (Port 6)
+ -> CompanionPortChain   : 2-6
+
+      ========================== Summary =========================
+Vendor ID                : 0x2926 (Wildlife Acoustics, Inc.)
+Product ID               : 0x4544
+USB version              : 2.00 -> wrong, device is Full-Speed only
+Port maximum Speed       : High-Speed (Companion Port 6 supports SuperSpeed)
+Device maximum Speed     : Full-Speed
+Device Connection Speed  : Full-Speed
+Self Powered             : no
+Demanded Current         : 100 mA
+Used Endpoints           : 5
+
+      ======================== USB Device ========================
+
+        +++++++++++++++++ Device Information ++++++++++++++++++
+Device Description       : Samengesteld USB-apparaat
+Device Path              : \\?\USB#VID_2926&PID_4544#060E174400336300#{a5dcbf10-6530-11d2-901f-00c04fb951ed} (GUID_DEVINTERFACE_USB_DEVICE)
+Kernel Name              : \Device\USBPDO-6
+Device ID                : USB\VID_2926&PID_4544\060E174400336300
+Hardware IDs             : USB\VID_2926&PID_4544&REV_0000 USB\VID_2926&PID_4544
+Driver KeyName           : {36fc9e60-c465-11cf-8056-444553540000}\0010 (GUID_DEVCLASS_USB)
+Driver                   : \SystemRoot\System32\drivers\usbccgp.sys (Version: 10.0.19041.488  Date: 2020-09-10)
+Driver Inf               : C:\WINDOWS\inf\usb.inf
+Legacy BusType           : PNPBus
+Class                    : USB
+Class GUID               : {36fc9e60-c465-11cf-8056-444553540000} (GUID_DEVCLASS_USB)
+Service                  : usbccgp
+Enumerator               : USB
+Location Info            : Port_#0002.Hub_#0001
+Location IDs             : PCIROOT(0)#PCI(0801)#PCI(0003)#USBROOT(0)#USB(2), ACPI(_SB_)#ACPI(PCI0)#ACPI(GP17)#ACPI(XHC0)#ACPI(RHUB)#ACPI(PRT2)
+Container ID             : {fdce9938-4ad7-5b1a-883b-a800c0d2d64c}
+Manufacturer Info        : (Standaard USB Host Controller)
+Capabilities             : 0x94 (Removable, UniqueID, SurpriseRemovalOK)
+Status                   : 0x0180600A (DN_DRIVER_LOADED, DN_STARTED, DN_DISABLEABLE, DN_REMOVABLE, DN_NT_ENUMERATOR, DN_NT_DRIVER)
+Problem Code             : 0
+Address                  : 2
+HcDisableSelectiveSuspend: 0
+EnableSelectiveSuspend   : 0
+SelectiveSuspendEnabled  : 0
+EnhancedPowerMgmtEnabled : 0
+IdleInWorkingState       : 0
+WakeFromSleepState       : 0
+Power State              : D3 (supported: D0, D3, wake from D0)
+ Child Device 1          : iAP Interface
+  Device ID              : USB\VID_2926&PID_4544&MI_00\7&29F32955&0&0000
+  Problem                : 28 (CM_PROB_FAILED_INSTALL)
+ Child Device 2          : Audio Control (USB-audioapparaat)
+  Device Path 1          : \\?\USB#VID_2926&PID_4544&MI_01#7&29f32955&0&0001#{6994ad04-93ef-11d0-a3cc-00a0c9223196}\global (AM_KSCATEGORY_AUDIO)
+  Device Path 2          : \\?\USB#VID_2926&PID_4544&MI_01#7&29f32955&0&0001#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global (AM_KSCATEGORY_CAPTURE)
+  Kernel Name            : \Device\000000c6
+  Device ID              : USB\VID_2926&PID_4544&MI_01\7&29F32955&0&0001
+  Class                  : MEDIA
+  Driver KeyName         : {4d36e96c-e325-11ce-bfc1-08002be10318}\0011 (GUID_DEVCLASS_MEDIA)
+  Service                : usbaudio
+   Child Device 1        : Microphone (Audio Control) (Audio-eindpunt)
+    Device Path          : \\?\SWD#MMDEVAPI#{0.0.1.00000000}.{4ac2d503-1f27-4424-a088-e4a78c91af11}#{2eef81be-33fa-4800-9670-1cd474972c3f} (DEVINTERFACE_AUDIO_CAPTURE)
+    Kernel Name          : \Device\000000c8
+    Device ID            : SWD\MMDEVAPI\{0.0.1.00000000}.{4AC2D503-1F27-4424-A088-E4A78C91AF11}
+    Class                : AudioEndpoint
+    Driver KeyName       : {c166523c-fe0c-4a94-a586-f1a80cfbbf3e}\0006 (AUDIOENDPOINT_CLASS_UUID)
+
+        +++++++++++++++++ Registry USB Flags +++++++++++++++++
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\usbflags\292645440000
+ osvc                    : REG_BINARY 00 00
+
+        ---------------- Connection Information ---------------
+Connection Index         : 0x02 (Port 2)
+Connection Status        : 0x01 (DeviceConnected)
+Current Config Value     : 0x01 (Configuration 1)
+Device Address           : 0x04 (4)
+Is Hub                   : 0x00 (no)
+Device Bus Speed         : 0x01 (Full-Speed)
+Number Of Open Pipes     : 0x04 (4 pipes to data endpoints)
+Pipe[0]                  : EndpointID=3  Direction=OUT  ScheduleOffset=0  Type=Bulk
+Pipe[1]                  : EndpointID=4  Direction=IN   ScheduleOffset=0  Type=Bulk
+Pipe[2]                  : EndpointID=5  Direction=IN   ScheduleOffset=0  Type=Interrupt
+Pipe[3]                  : EndpointID=6  Direction=IN   ScheduleOffset=0  Type=Interrupt
+Data (HexDump)           : 02 00 00 00 12 01 00 02 00 00 00 08 26 29 44 45   ............&)DE
+                           00 00 01 09 80 01 01 01 00 04 00 04 00 00 00 01   ................
+                           00 00 00 07 05 03 02 40 00 0A 00 00 00 00 07 05   .......@........
+                           84 02 40 00 0A 00 00 00 00 07 05 85 03 01 00 04   ..@.............
+                           00 00 00 00 09 05 86 03 02 00 1E 00 00 00 00      ...............
+
+        --------------- Connection Information V2 -------------
+Connection Index         : 0x02 (2)
+Length                   : 0x10 (16 bytes)
+SupportedUsbProtocols    : 0x03
+ Usb110                  : 1 (yes, port supports USB 1.1)
+ Usb200                  : 1 (yes, port supports USB 2.0)
+ Usb300                  : 0 (no, port not supports USB 3.0) -> but Companion Port 2-6 does
+ ReservedMBZ             : 0x00
+Flags                    : 0x00
+ DevIsOpAtSsOrHigher     : 0 (Device is not operating at SuperSpeed or higher)
+ DevIsSsCapOrHigher      : 0 (Device is not SuperSpeed capable or higher)
+ DevIsOpAtSsPlusOrHigher : 0 (Device is not operating at SuperSpeedPlus or higher)
+ DevIsSsPlusCapOrHigher  : 0 (Device is not SuperSpeedPlus capable or higher)
+ ReservedMBZ             : 0x00
+Data (HexDump)           : 02 00 00 00 10 00 00 00 03 00 00 00 00 00 00 00   ................
+
+    ---------------------- Device Descriptor ----------------------
+bLength                  : 0x12 (18 bytes)
+bDescriptorType          : 0x01 (Device Descriptor)
+bcdUSB                   : 0x200 (USB Version 2.00) -> wrong, device is Full-Speed only
+bDeviceClass             : 0x00 (defined by the interface descriptors)
+bDeviceSubClass          : 0x00
+bDeviceProtocol          : 0x00
+bMaxPacketSize0          : 0x08 (8 bytes)
+idVendor                 : 0x2926 (Wildlife Acoustics, Inc.)
+idProduct                : 0x4544
+bcdDevice                : 0x0000
+iManufacturer            : 0x01 (String Descriptor 1)
+iProduct                 : 0x09 (String Descriptor 9)
+iSerialNumber            : 0x80 (String Descriptor 128)
+bNumConfigurations       : 0x01 (1 Configuration)
+Data (HexDump)           : 12 01 00 02 00 00 00 08 26 29 44 45 00 00 01 09   ........&)DE....
+                           80 01                                             ..
+
+    ------------------ Configuration Descriptor -------------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x02 (Configuration Descriptor)
+wTotalLength             : 0x00BE (190 bytes)
+bNumInterfaces           : 0x03 (3 Interfaces)
+bConfigurationValue      : 0x01 (Configuration 1)
+iConfiguration           : 0x0D (String Descriptor 13)
+bmAttributes             : 0x80
+ D7: Reserved, set 1     : 0x01
+ D6: Self Powered        : 0x00 (no)
+ D5: Remote Wakeup       : 0x00 (no)
+ D4..0: Reserved, set 0  : 0x00
+MaxPower                 : 0x32 (100 mA)
+Data (HexDump)           : 09 02 BE 00 03 01 0D 80 32 09 04 00 00 03 FF F0   ........2.......
+                           00 02 07 05 03 02 40 00 0A 07 05 84 02 40 00 0A   ......@......@..
+                           07 05 85 03 01 00 04 09 04 01 00 01 01 01 00 0A   ................
+                           09 24 01 00 01 26 00 01 02 0C 24 02 04 01 02 00   .$...&....$.....
+                           01 01 00 00 05 09 24 03 05 01 01 00 06 06 08 24   ......$........$
+                           06 06 04 01 03 00 09 05 86 03 02 00 1E 00 00 09   ................
+                           04 02 00 00 01 02 00 03 09 04 02 01 01 01 02 00   ................
+                           07 07 24 01 05 01 01 00 0B 24 02 01 01 02 10 01   ..$......$......
+                           00 E8 03 09 05 82 0D 00 02 01 00 00 07 25 01 01   .............%..
+                           01 01 00 09 04 02 02 01 01 02 00 07 07 24 01 05   .............$..
+                           01 01 00 0B 24 02 01 01 02 10 01 00 E8 03 09 05   ....$...........
+                           82 0D 00 03 01 00 00 07 25 01 01 01 01 00         ........%.....
+
+        ---------------- Interface Descriptor -----------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x04 (Interface Descriptor)
+bInterfaceNumber         : 0x00
+bAlternateSetting        : 0x00
+bNumEndpoints            : 0x03 (3 Endpoints)
+bInterfaceClass          : 0xFF (Vendor Specific)
+bInterfaceSubClass       : 0xF0
+bInterfaceProtocol       : 0x00
+iInterface               : 0x02 (String Descriptor 2)
+Data (HexDump)           : 09 04 00 00 03 FF F0 00 02                        .........
+
+        ----------------- Endpoint Descriptor -----------------
+bLength                  : 0x07 (7 bytes)
+bDescriptorType          : 0x05 (Endpoint Descriptor)
+bEndpointAddress         : 0x03 (Direction=OUT EndpointID=3)
+bmAttributes             : 0x02 (TransferType=Bulk)
+wMaxPacketSize           : 0x0040 (64 bytes)
+bInterval                : 0x0A (ignored)
+Data (HexDump)           : 07 05 03 02 40 00 0A                              ....@..
+
+        ----------------- Endpoint Descriptor -----------------
+bLength                  : 0x07 (7 bytes)
+bDescriptorType          : 0x05 (Endpoint Descriptor)
+bEndpointAddress         : 0x84 (Direction=IN EndpointID=4)
+bmAttributes             : 0x02 (TransferType=Bulk)
+wMaxPacketSize           : 0x0040 (64 bytes)
+bInterval                : 0x0A (ignored)
+Data (HexDump)           : 07 05 84 02 40 00 0A                              ....@..
+
+        ----------------- Endpoint Descriptor -----------------
+bLength                  : 0x07 (7 bytes)
+bDescriptorType          : 0x05 (Endpoint Descriptor)
+bEndpointAddress         : 0x85 (Direction=IN EndpointID=5)
+bmAttributes             : 0x03 (TransferType=Interrupt)
+wMaxPacketSize           : 0x0001 (1 byte)
+bInterval                : 0x04 (4 ms)
+Data (HexDump)           : 07 05 85 03 01 00 04                              .......
+
+        ---------------- Interface Descriptor -----------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x04 (Interface Descriptor)
+bInterfaceNumber         : 0x01
+bAlternateSetting        : 0x00
+bNumEndpoints            : 0x01 (1 Endpoint)
+bInterfaceClass          : 0x01 (Audio)
+bInterfaceSubClass       : 0x01 (Audio Control)
+bInterfaceProtocol       : 0x00
+iInterface               : 0x0A (String Descriptor 10)
+Data (HexDump)           : 09 04 01 00 01 01 01 00 0A                        .........
+
+        ------ Audio Control Interface Header Descriptor ------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x24 (Audio Interface Descriptor)
+bDescriptorSubtype       : 0x01 (Header)
+bcdADC                   : 0x0100
+wTotalLength             : 0x0026 (38 bytes)
+bInCollection            : 0x01
+baInterfaceNr[1]         : 0x02
+Data (HexDump)           : 09 24 01 00 01 26 00 01 02                        .$...&...
+
+        ------- Audio Control Input Terminal Descriptor -------
+bLength                  : 0x0C (12 bytes)
+bDescriptorType          : 0x24 (Audio Interface Descriptor)
+bDescriptorSubtype       : 0x02 (Input Terminal)
+bTerminalID              : 0x04
+wTerminalType            : 0x0201 (Microphone)
+bAssocTerminal           : 0x00
+bNrChannels              : 0x01 (1 channel)
+wChannelConfig           : 0x0001 (L)
+iChannelNames            : 0x00 (No String Descriptor)
+iTerminal                : 0x05 (String Descriptor 5)
+Data (HexDump)           : 0C 24 02 04 01 02 00 01 01 00 00 05               .$..........
+
+        ------- Audio Control Output Terminal Descriptor ------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x24 (Audio Interface Descriptor)
+bDescriptorSubtype       : 0x03 (Output Terminal)
+bTerminalID              : 0x05
+wTerminalType            : 0x0101 (USB streaming)
+bAssocTerminal           : 0x00 (0)
+bSourceID                : 0x06 (6)
+iTerminal                : 0x06 (String Descriptor 6)
+Data (HexDump)           : 09 24 03 05 01 01 00 06 06                        .$.......
+
+        -------- Audio Control Feature Unit Descriptor --------
+bLength                  : 0x08 (8 bytes)
+bDescriptorType          : 0x24 (Audio Interface Descriptor)
+bDescriptorSubtype       : 0x06 (Feature Unit)
+bUnitID                  : 0x06 (6)
+bSourceID                : 0x04 (4)
+bControlSize             : 0x01 (1 byte per control)
+bmaControls[0]           : 0x03
+ D0: Mute                : 1
+ D1: Volume              : 1
+ D2: Bass                : 0
+ D3: Mid                 : 0
+ D4: Treble              : 0
+ D5: Graphic Equalizer   : 0
+ D6: Automatic Gain      : 0
+ D7: Delay               : 0
+iFeature                 : 0x00 (No String Descriptor)
+Data (HexDump)           : 08 24 06 06 04 01 03 00                           .$......
+
+        ----------------- Endpoint Descriptor -----------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x05 (Endpoint Descriptor)
+bEndpointAddress         : 0x86 (Direction=IN EndpointID=6)
+bmAttributes             : 0x03 (TransferType=Interrupt)
+wMaxPacketSize           : 0x0002 (2 bytes)
+bInterval                : 0x1E (30 ms)
+bRefresh                 : 0x00
+bSynchAddress            : 0x00
+Data (HexDump)           : 09 05 86 03 02 00 1E 00 00                        .........
+
+        ---------------- Interface Descriptor -----------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x04 (Interface Descriptor)
+bInterfaceNumber         : 0x02
+bAlternateSetting        : 0x00
+bNumEndpoints            : 0x00 (Default Control Pipe only)
+bInterfaceClass          : 0x01 (Audio)
+bInterfaceSubClass       : 0x02 (Audio Streaming)
+bInterfaceProtocol       : 0x00
+iInterface               : 0x03 (String Descriptor 3)
+Data (HexDump)           : 09 04 02 00 00 01 02 00 03                        .........
+
+        ---------------- Interface Descriptor -----------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x04 (Interface Descriptor)
+bInterfaceNumber         : 0x02
+bAlternateSetting        : 0x01
+bNumEndpoints            : 0x01 (1 Endpoint)
+bInterfaceClass          : 0x01 (Audio)
+bInterfaceSubClass       : 0x02 (Audio Streaming)
+bInterfaceProtocol       : 0x00
+iInterface               : 0x07 (String Descriptor 7)
+Data (HexDump)           : 09 04 02 01 01 01 02 00 07                        .........
+
+        -------- Audio Streaming Interface Descriptor ---------
+bLength                  : 0x07 (7 bytes)
+bDescriptorType          : 0x24 (Audio Interface Descriptor)
+bDescriptorSubtype       : 0x01
+bTerminalLink            : 0x05
+bDelay                   : 0x01
+wFormatTag               : 0x0001 (PCM)
+Data (HexDump)           : 07 24 01 05 01 01 00                              .$.....
+
+        ------- Audio Streaming Format Type Descriptor --------
+bLength                  : 0x0B (11 bytes)
+bDescriptorType          : 0x24 (Audio Interface Descriptor)
+bDescriptorSubtype       : 0x02 (Format Type)
+bFormatType              : 0x01 (FORMAT_TYPE_I)
+bNrChannels              : 0x01 (1 channel)
+bSubframeSize            : 0x02 (2 bytes per subframe)
+bBitResolution           : 0x10 (16 bits per sample)
+bSamFreqType             : 0x01 (supports 1 sample frequence)
+tSamFreq[1]              : 0x3E800 (256000 Hz)
+Data (HexDump)           : 0B 24 02 01 01 02 10 01 00 E8 03                  .$.........
+
+        ----------------- Endpoint Descriptor -----------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x05 (Endpoint Descriptor)
+bEndpointAddress         : 0x82 (Direction=IN EndpointID=2)
+bmAttributes             : 0x0D (TransferType=Isochronous  SyncType=Synchronous  EndpointType=Data)
+wMaxPacketSize           : 0x0200 (512 bytes)
+bInterval                : 0x01 (1 ms)
+bRefresh                 : 0x00
+bSynchAddress            : 0x00
+Data (HexDump)           : 09 05 82 0D 00 02 01 00 00                        .........
+
+        ----------- Audio Data Endpoint Descriptor ------------
+bLength                  : 0x07 (7 bytes)
+bDescriptorType          : 0x25 (Audio Endpoint Descriptor)
+bDescriptorSubtype       : 0x01 (General)
+bmAttributes             : 0x01
+ D0   : Sampling Freq    : 0x01 (supported)
+ D1   : Pitch            : 0x00 (not supported)
+ D6..2: Reserved         : 0x00
+ D7   : MaxPacketsOnly   : 0x00 (no)
+bLockDelayUnits          : 0x01 (Milliseconds)
+wLockDelay               : 0x0001 (1 ms)
+Data (HexDump)           : 07 25 01 01 01 01 00                              .%.....
+
+        ---------------- Interface Descriptor -----------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x04 (Interface Descriptor)
+bInterfaceNumber         : 0x02
+bAlternateSetting        : 0x02
+bNumEndpoints            : 0x01 (1 Endpoint)
+bInterfaceClass          : 0x01 (Audio)
+bInterfaceSubClass       : 0x02 (Audio Streaming)
+bInterfaceProtocol       : 0x00
+iInterface               : 0x07 (String Descriptor 7)
+Data (HexDump)           : 09 04 02 02 01 01 02 00 07                        .........
+
+        -------- Audio Streaming Interface Descriptor ---------
+bLength                  : 0x07 (7 bytes)
+bDescriptorType          : 0x24 (Audio Interface Descriptor)
+bDescriptorSubtype       : 0x01
+bTerminalLink            : 0x05
+bDelay                   : 0x01
+wFormatTag               : 0x0001 (PCM)
+Data (HexDump)           : 07 24 01 05 01 01 00                              .$.....
+
+        ------- Audio Streaming Format Type Descriptor --------
+bLength                  : 0x0B (11 bytes)
+bDescriptorType          : 0x24 (Audio Interface Descriptor)
+bDescriptorSubtype       : 0x02 (Format Type)
+bFormatType              : 0x01 (FORMAT_TYPE_I)
+bNrChannels              : 0x01 (1 channel)
+bSubframeSize            : 0x02 (2 bytes per subframe)
+bBitResolution           : 0x10 (16 bits per sample)
+bSamFreqType             : 0x01 (supports 1 sample frequence)
+tSamFreq[1]              : 0x3E800 (256000 Hz)
+Data (HexDump)           : 0B 24 02 01 01 02 10 01 00 E8 03                  .$.........
+
+        ----------------- Endpoint Descriptor -----------------
+bLength                  : 0x09 (9 bytes)
+bDescriptorType          : 0x05 (Endpoint Descriptor)
+bEndpointAddress         : 0x82 (Direction=IN EndpointID=2)
+bmAttributes             : 0x0D (TransferType=Isochronous  SyncType=Synchronous  EndpointType=Data)
+wMaxPacketSize           : 0x0300 (768 bytes)
+bInterval                : 0x01 (1 ms)
+bRefresh                 : 0x00
+bSynchAddress            : 0x00
+Data (HexDump)           : 09 05 82 0D 00 03 01 00 00                        .........
+
+        ----------- Audio Data Endpoint Descriptor ------------
+bLength                  : 0x07 (7 bytes)
+bDescriptorType          : 0x25 (Audio Endpoint Descriptor)
+bDescriptorSubtype       : 0x01 (General)
+bmAttributes             : 0x01
+ D0   : Sampling Freq    : 0x01 (supported)
+ D1   : Pitch            : 0x00 (not supported)
+ D6..2: Reserved         : 0x00
+ D7   : MaxPacketsOnly   : 0x00 (no)
+bLockDelayUnits          : 0x01 (Milliseconds)
+wLockDelay               : 0x0001 (1 ms)
+Data (HexDump)           : 07 25 01 01 01 01 00                              .%.....
+
+    ----------------- Device Qualifier Descriptor -----------------
+Error                    : ERROR_GEN_FAILURE
+
+      -------------------- String Descriptors -------------------
+String descriptors are not available  (because the device is in low power state)
