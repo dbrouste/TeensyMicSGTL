@@ -10,10 +10,13 @@ It is composed of a custom PCB board and a Teensy 4.0
 - PCB : Done. https://oshwlab.com/damien.brouste/teensymic-sgtl5000
 - High Samplerate : Done. Based on the work of Frank B : https://forum.pjrc.com/threads/67749-USB-Audio-samplerates-added
 - Making it work on Windows : Done.
-- Making it work on Android : In progress.
-- Create the microphone USB descriptor : In progress. (not sure if it will be mandatory)
+- Making it work on Android : Done.
+- Create the microphone USB descriptor : Done.
 
 # Project log
+
+21/03/2022
+Sinusoidal received on the phone at 384kHz samplerate
 
 04/02/2022 :
 - Edwin managed to get it to work on Windows at 384kHz. 
